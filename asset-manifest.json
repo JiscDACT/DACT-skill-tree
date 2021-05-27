@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/DACT-skill-tree/static/css/main.2f91846b.chunk.css",
-    "main.js": "/DACT-skill-tree/static/js/main.246a7ad9.chunk.js",
-    "main.js.map": "/DACT-skill-tree/static/js/main.246a7ad9.chunk.js.map",
-    "runtime-main.js": "/DACT-skill-tree/static/js/runtime-main.74e631a6.js",
-    "runtime-main.js.map": "/DACT-skill-tree/static/js/runtime-main.74e631a6.js.map",
-    "static/css/2.1a1a8e53.chunk.css": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2e750973.chunk.js": "/DACT-skill-tree/static/js/2.2e750973.chunk.js",
-    "static/js/2.2e750973.chunk.js.map": "/DACT-skill-tree/static/js/2.2e750973.chunk.js.map",
-    "static/js/3.e9eefe6d.chunk.js": "/DACT-skill-tree/static/js/3.e9eefe6d.chunk.js",
-    "static/js/3.e9eefe6d.chunk.js.map": "/DACT-skill-tree/static/js/3.e9eefe6d.chunk.js.map",
-    "index.html": "/DACT-skill-tree/index.html",
-    "static/css/2.1a1a8e53.chunk.css.map": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css.map",
-    "static/css/main.2f91846b.chunk.css.map": "/DACT-skill-tree/static/css/main.2f91846b.chunk.css.map",
-    "static/js/2.2e750973.chunk.js.LICENSE.txt": "/DACT-skill-tree/static/js/2.2e750973.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/DACT-skill-tree/static/media/compass.97a04d42.png"
+    "main.css": "http://localhost:3000/static/css/main.8b34cff7.chunk.css",
+    "main.js": "http://localhost:3000/static/js/main.6f5f9e6b.chunk.js",
+    "main.js.map": "http://localhost:3000/static/js/main.6f5f9e6b.chunk.js.map",
+    "runtime-main.js": "http://localhost:3000/static/js/runtime-main.43650ff5.js",
+    "runtime-main.js.map": "http://localhost:3000/static/js/runtime-main.43650ff5.js.map",
+    "static/css/2.1a1a8e53.chunk.css": "http://localhost:3000/static/css/2.1a1a8e53.chunk.css",
+    "static/js/2.f297b037.chunk.js": "http://localhost:3000/static/js/2.f297b037.chunk.js",
+    "static/js/2.f297b037.chunk.js.map": "http://localhost:3000/static/js/2.f297b037.chunk.js.map",
+    "static/js/3.9ff0fd42.chunk.js": "http://localhost:3000/static/js/3.9ff0fd42.chunk.js",
+    "static/js/3.9ff0fd42.chunk.js.map": "http://localhost:3000/static/js/3.9ff0fd42.chunk.js.map",
+    "index.html": "http://localhost:3000/index.html",
+    "static/css/2.1a1a8e53.chunk.css.map": "http://localhost:3000/static/css/2.1a1a8e53.chunk.css.map",
+    "static/css/main.8b34cff7.chunk.css.map": "http://localhost:3000/static/css/main.8b34cff7.chunk.css.map",
+    "static/js/2.f297b037.chunk.js.LICENSE.txt": "http://localhost:3000/static/js/2.f297b037.chunk.js.LICENSE.txt",
+    "static/media/App.css": "http://localhost:3000/static/media/compass.97a04d42.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.74e631a6.js",
+    "static/js/runtime-main.43650ff5.js",
     "static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2e750973.chunk.js",
-    "static/css/main.2f91846b.chunk.css",
-    "static/js/main.246a7ad9.chunk.js"
+    "static/js/2.f297b037.chunk.js",
+    "static/css/main.8b34cff7.chunk.css",
+    "static/js/main.6f5f9e6b.chunk.js"
   ]
 }
