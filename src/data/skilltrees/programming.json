@@ -1,0 +1,205 @@
+{
+  "tree": {
+    "name": "Programming",
+    "tree": [
+      {
+        "id": "programming-basic",
+        "title": "Programming basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Understand the basics of programming."
+        },
+        "children": [
+          {
+            "id": "programming-open",
+            "title": "Run projects",
+            "icon": "icons/RoundIcons_FreeSet-58.svg",
+            "tooltip": {
+              "content": "Can open and run a notebook/project created by another."
+            },
+            "children": [
+              {
+                "id": "programming-create",
+                "title": "Create projects",
+                "icon": "icons/RoundIcons_FreeSet-07.svg",
+                "tooltip": {
+                  "content": "Create a new Python or R project and set up dependencies"
+                },
+                "children": [
+                  {
+                    "id": "python-data",
+                    "title": "Python data structures",
+                    "icon": "icons/python.svg",
+                    "tooltip": {
+                      "content": "Work with lists, dicts and other basic data types"
+                    },
+                    "children": [
+                      {
+                        "id": "python-modules",
+                        "title": "Python modules",
+                        "icon": "icons/python.svg",
+                        "tooltip": {
+                          "content": "Organise code with modules and imports"
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "python-comp",
+                        "title": "Python programming",
+                        "icon": "icons/python.svg",
+                        "tooltip": {
+                          "content": "Confidently implement algorithms in Python"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "programming-import",
+                    "title": "Dataframes",
+                    "icon": "icons/RoundIcons_FreeSet-53.svg",
+                    "tooltip": {
+                      "content": "Import data into dataframes in R or Python (e.g. using Pandas) and describe them"
+                    },
+                    "children": [
+                      {
+                        "id": "programming-aggregate",
+                        "title": "Aggregations",
+                        "icon": "icons/RoundIcons_FreeSet-33.svg",
+                        "tooltip": {
+                          "content": "Perform aggregate calculations on dataframes in R or Python (e.g. using Pandas)"
+                        },
+                        "children": [
+                        ]
+                      },
+                      {
+                        "id": "programming-reshape",
+                        "title": "Reshape",
+                        "icon": "icons/RoundIcons_FreeSet-33.svg",
+                        "tooltip": {
+                          "content": "Reshape dataframes in R or Python (e.g. using Pandas)"
+                        },
+                        "children": [
+                        ]
+                      },
+                      {
+                        "id": "programming-analysis",
+                        "title": "Analyse",
+                        "icon": "icons/RoundIcons_FreeSet-33.svg",
+                        "tooltip": {
+                          "content": "Perform statistical analysis steps in R or Python e.g. HLR"
+                        },
+                        "children": [
+                          {
+                            "id": "programming-model",
+                            "title": "Model",
+                            "icon": "icons/science.svg",
+                            "tooltip": {
+                              "content": "Perform machine learning tasks in R or Python (e.g. using SciKit-Learn) such as multivariate linear regression"
+                            },
+                            "children": [
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "programming-import-csv",
+                    "title": "CSV",
+                    "icon": "icons/csv.svg",
+                    "tooltip": {
+                      "content": "Load and work with CSV data"
+                    },
+                    "children": [
+                      {
+                        "id": "programming-clean-csv",
+                        "title": "Cleaning CSVs",
+                        "icon": "icons/csv.svg",
+                        "tooltip": {
+                          "content": "Clean up CSV data"
+                        },
+                        "children": [
+                          {
+                            "id": "programming-csv-end-to-end",
+                            "title": "Create a data app",
+                            "icon": "icons/csv.svg",
+                            "tooltip": {
+                              "content": "Create a program to load, clean and export data"
+                            },
+                            "children": [
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "programming-xml",
+                    "title": "XML and text",
+                    "icon": "icons/xml.svg",
+                    "tooltip": {
+                      "content": "Use Python or R to process XML and HTML documents and extract data and text e.g. using LXML"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "programming-version",
+                    "title": "Git",
+                    "icon": "icons/RoundIcons_FreeSet-19.svg",
+                    "tooltip": {
+                      "content": "Develop software in collaboration with others using a version control system (e.g. git, github and gitlab)"
+                    },
+                    "children": [
+                      {
+                        "id": "programming-ci",
+                        "title": "CI/CD",
+                        "icon": "icons/devops.svg",
+                        "tooltip": {
+                          "content": "Deploy code automatically using CI/CD"
+                        },
+                        "children": [
+                          {
+                            "id": "programming-mg",
+                            "title": "DevOps",
+                            "icon": "icons/devops.svg",
+                            "tooltip": {
+                              "content": "Manage DevOps for projects"
+                            },
+                            "children": [
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "programming-arch",
+                        "title": "Architecture",
+                        "icon": "icons/RoundIcons_FreeSet-19.svg",
+                        "tooltip": {
+                          "content": "Create the architecture for a new solution"
+                        },
+                        "children": [
+                        ]
+                      },
+                      {
+                        "id": "programming-testing",
+                        "title": "Testing",
+                        "icon": "icons/RoundIcons_FreeSet-19.svg",
+                        "tooltip": {
+                          "content": "Check code quality using unit tests and integration tests"
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -26,11 +26,15 @@ code {
 }
 
 .profile-group {
+  max-width: fit-content;
+  justify-content: center;
   display: flex;
+  flex-flow: row wrap;
 }
 
 .profile {
-  min-width:200px;
+  min-width:160px;
+  max-width:16%;
   background-color: #282c34;
   margin: 10px;
   padding: 10px;

@@ -1,0 +1,177 @@
+{
+    "tree": {
+        "name": "Statistics",
+        "tree": [
+            {
+                "id": "stats-basic",
+                "title": "Statistics basics",
+                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                "tooltip": {
+                    "content": "Understand the basics of statistics."
+                },
+                "children": [
+                    {
+                        "id": "stats-desc-1",
+                        "title": "Centrality and variance",
+                        "icon": "icons/RoundIcons_FreeSet-43.svg",
+                        "tooltip": {
+                            "content": "Apply appropriate measures of centrality and variance"
+                        },
+                        "children": [
+                            {
+                                "id": "stats-desc-2",
+                                "title": "Distributions",
+                                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                                "tooltip": {
+                                    "content": "Analyse distribution using histograms, z-scores and quantiles"
+                                },
+                                "children": [
+                                    {
+                                        "id": "stats-desc-3",
+                                        "title": "Advanced distributions",
+                                        "icon": "icons/RoundIcons_FreeSet-43.svg",
+                                        "tooltip": {
+                                            "content": "Create distribution metrics e.g.skew, kurtosis, heuristics"
+                                        },
+                                        "children": [
+                                        ]
+                                    },
+                                    {
+                                        "id": "stats-desc-4",
+                                        "title": "Clustering",
+                                        "icon": "icons/RoundIcons_FreeSet-43.svg",
+                                        "tooltip": {
+                                            "content": "Clustering e.g. K-Means"
+                                        },
+                                        "children": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "stats-desc-5",
+                                "title": "Outliers",
+                                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                                "tooltip": {
+                                    "content": "Detect and exclude outliers"
+                                },
+                                "children": [
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "stats-metrics",
+                        "title": "Deriving metrics",
+                        "icon": "icons/RoundIcons_FreeSet-53.svg",
+                        "tooltip": {
+                            "content": "Create derived metrics and indicators"
+                        },
+                        "children": [
+                            {
+                                "id": "stats-scaling",
+                                "title": "Normalisation",
+                                "icon": "icons/RoundIcons_FreeSet-53.svg",
+                                "tooltip": {
+                                    "content": "Use feature scaling and normalisation to enable comparison between measures"
+                                },
+                                "children": [
+                                    {
+                                        "id": "stats-pca",
+                                        "title": "PCA/MCA",
+                                        "icon": "icons/RoundIcons_FreeSet-53.svg",
+                                        "tooltip": {
+                                            "content": "Use PCA/MCA to create derived dimensions"
+                                        },
+                                        "children": [
+                                        ]
+                                    },
+                                    {
+                                        "id": "stats-dimension-reduction",
+                                        "title": "Dimension reduction",
+                                        "icon": "icons/RoundIcons_FreeSet-53.svg",
+                                        "tooltip": {
+                                            "content": "Dimension reduction and generalisation"
+                                        },
+                                        "children": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "stats-diagnostic-1",
+                        "title": "Diagnostic statistics",
+                        "icon": "icons/RoundIcons_FreeSet-30.svg",
+                        "tooltip": {
+                            "content": "Using z-tests, t-tests, x^2, Pearson and other simple tests for significance"
+                        },
+                        "children": [
+                            {
+                                "id": "stats-diagnostic-2",
+                                "title": "Advanced diagnostic statistics",
+                                "icon": "icons/RoundIcons_FreeSet-30.svg",
+                                "tooltip": {
+                                    "content": "Using HLR, HLM, ANOVA and coefficients to identify important factors"
+                                },
+                                "children": [
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "stats-predictive-1",
+                        "title": "Regression",
+                        "icon": "icons/science.svg",
+                        "tooltip": {
+                            "content": "Linear and Logistic Multivariate Regression"
+                        },
+                        "children": [
+                            {
+                                "id": "stats-predictive-2",
+                                "title": "Model evaluation",
+                                "icon": "icons/science.svg",
+                                "tooltip": {
+                                    "content": "Can appropriately test model fit, uses more complex statistical techniques and is not restricted to \"out of the box\" programs and scripts. Interpretation of complex outputs. Manages more complex data interpretation e.g. modelling missing data. "
+                                },
+                                "children": [
+                                ]
+                            },
+                            {
+                                "id": "stats-predictive-3",
+                                "title": "SVMs and ANNs",
+                                "icon": "icons/science.svg",
+                                "tooltip": {
+                                    "content": "SVMs and ANNs"
+                                },
+                                "children": [
+                                ]
+                            },
+                            {
+                                "id": "stats-predictive-4",
+                                "title": "ABMs and sims",
+                                "icon": "icons/science.svg",
+                                "tooltip": {
+                                    "content": "Agent-based modelling and simulations"
+                                },
+                                "children": [
+                                ]
+                            },
+                            {
+                                "id": "stats-optim",
+                                "title": "Optimisation/maximisation",
+                                "icon": "icons/science.svg",
+                                "tooltip": {
+                                    "content": "Calculus for optimisation/maximisation"
+                                },
+                                "children": [
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

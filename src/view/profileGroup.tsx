@@ -1,10 +1,9 @@
 import {Profile} from "./profile";
 import React from "react";
-import {SkillProfile} from "./skillProfile";
+import {SkillProfile} from "../model/skillProfile";
 
 export function ProfileGroup(props:any){
     return (
-        <div>
             <div className={'profile-group'}>
             {
                 props.profiles.map(function(profile:SkillProfile, key=profile.name){
@@ -12,6 +11,5 @@ export function ProfileGroup(props:any){
                 })
             }
             </div>
-        </div>
     )
 }

@@ -1,24 +1,31 @@
 import React, {useState} from 'react';
 import './App.css';
-import {statistics, programming} from './tree'
-import {getEmptyProfiles, getProfiles} from './skillProfile'
-import {updateProfiles} from "./skillProfile";
-import {ProfileGroup} from "./profileGroup";
-
+import {getEmptyProfiles, getProfiles} from './model/skillProfile'
+import {updateProfiles} from "./model/skillProfile";
+import {ProfileGroup} from "./view/profileGroup";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import {TreeWrapper} from "./treeWrapper";
+import {TreeWrapper} from "./view/treeWrapper";
+import {requireAll} from "./util";
 
 function App() {
+
+    const data = requireAll( require.context("./data/skilltrees/", false, /.json$/) )
+    const trees = data.map(function(obj:any) {
+        return obj.tree;
+    });
+
     const [profiles, changeProfiles] = useState(getProfiles());
 
-    // TODO handle loading event as well
     function myHandleSave(storage: any, treeId: any, skills: any) {
         changeProfiles(updateProfiles(profiles, skills))
         storage.setItem("profiles", JSON.stringify(profiles))
         return storage.setItem("skills-" + treeId, JSON.stringify(skills));
     }
 
+    //
+    // Debugging use - deletes the saved profiles
+    //
     function resetProfiles(){
         changeProfiles(updateProfiles(getEmptyProfiles(), []))
     }
@@ -33,14 +40,13 @@ function App() {
                     <TabList>
                         <Tab>Introduction</Tab>
                         <Tab>Profiles</Tab>
-                        <Tab>Programming</Tab>
-                        <Tab>Statistics</Tab>
-
-                        <Tab>Data Management</Tab>
-                        <Tab>Data Visualisation</Tab>
-                        <Tab>Databases and SQL</Tab>
-                        <Tab>Web development</Tab>
-
+                        {
+                            trees.map(function(tree:any, key=tree.name){
+                                return(
+                                <Tab key={key}>{tree.name}</Tab>
+                                )
+                            })
+                        }
                         <Tab>Admin/Dev use</Tab>
                     </TabList>
                     <TabPanel>
@@ -56,31 +62,19 @@ function App() {
                     <TabPanel>
                         <ProfileGroup profiles={profiles}/>
                     </TabPanel>
-                    <TabPanel>
-                        <TreeWrapper
-                            treeId="programming"
-                            title="Programming for data analytics"
-                            tree={programming}
-                            collapsible
-                            description="Developing data analytics solutions with Python and R"
-                            handleSave={myHandleSave}
-                        />
-                    </TabPanel>
-                    <TabPanel>
-                        <TreeWrapper
-
-                            treeId="programming"
-                            title="Using statistics"
-                            tree={statistics}
-                            collapsible
-                            description="Developing data analytics solutions with Python and R"
-                            handleSave={myHandleSave}
-                        />
-                    </TabPanel>
-                    <TabPanel/>
-                    <TabPanel/>
-                    <TabPanel/>
-                    <TabPanel/>
+                    {
+                        trees.map(function(tree:any, key=tree.name){
+                            return(
+                            <TabPanel key={key}>
+                                <TreeWrapper
+                                    treeId = "DACT"
+                                    tree = {tree.tree}
+                                    title = {tree.name}
+                                    handleSave = {myHandleSave}
+                                />
+                            </TabPanel>
+                            )})
+                    }
                     <TabPanel>
                         <button onClick={resetProfiles}>Reset profiles</button>
                     </TabPanel>
