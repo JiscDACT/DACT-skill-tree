@@ -20,15 +20,13 @@ function App() {
     }
 
     function resetProfiles(){
-        changeProfiles(updateProfiles(getEmptyProfiles(), programming))
+        changeProfiles(updateProfiles(getEmptyProfiles(), []))
     }
 
     return (
         <article>
             <div className={'App-header'}>
                 <h3>DACT Skill Tree</h3>
-                <button onClick={resetProfiles}>Reset profiles</button>
-                <p></p>
             </div>
             <section>
                 <Tabs>
@@ -37,19 +35,26 @@ function App() {
                         <Tab>Profiles</Tab>
                         <Tab>Programming</Tab>
                         <Tab>Statistics</Tab>
+
                         <Tab>Data Management</Tab>
                         <Tab>Data Visualisation</Tab>
                         <Tab>Databases and SQL</Tab>
                         <Tab>Web development</Tab>
+
+                        <Tab>Admin/Dev use</Tab>
                     </TabList>
                     <TabPanel>
                         <div>
                             <h1>DACT Skill Tree</h1>
                             <p>Interactive skill tree and job profiler!</p>
+                            <p>This is a demo only! The images it uses are all development placeholders and
+                            are not owned or licensed for use.
+                                If you own an image and want it removed,
+                            just let me know and I'll remove it. </p>
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <ProfileGroup profiles={profiles}></ProfileGroup>
+                        <ProfileGroup profiles={profiles}/>
                     </TabPanel>
                     <TabPanel>
                         <TreeWrapper
@@ -72,14 +77,12 @@ function App() {
                             handleSave={myHandleSave}
                         />
                     </TabPanel>
+                    <TabPanel/>
+                    <TabPanel/>
+                    <TabPanel/>
+                    <TabPanel/>
                     <TabPanel>
-                        <TreeWrapper
-                            treeId="Test"
-                            title="Test"
-                            description="Test"
-                            handleSave={myHandleSave}
-                            tree={statistics}
-                        />
+                        <button onClick={resetProfiles}>Reset profiles</button>
                     </TabPanel>
                 </Tabs>
             </section>

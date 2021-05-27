@@ -102,13 +102,13 @@ export const statistics: SkillType[] = [
             {
                 id: 'stats-predictive-1',
                 title: 'Regression',
-                icon: 'icons/RoundIcons_FreeSet-12.svg',
+                icon: 'icons/science.svg',
                 tooltip: {content: 'Linear and Logistic Multivariate Regression'},
                 children: [
                     {
                         id: 'stats-predictive-2',
                         title: 'Model evaluation',
-                        icon: 'icons/RoundIcons_FreeSet-12.svg',
+                        icon: 'icons/science.svg',
                         tooltip: {content: 'Can appropriately test model fit, uses more complex statistical techniques and is not restricted to "out of the box" programs and scripts. Interpretation of complex outputs. Manages more complex data interpretation e.g. modelling missing data. '},
                         children: [
                         ]
@@ -116,7 +116,7 @@ export const statistics: SkillType[] = [
                     {
                         id: 'stats-predictive-3',
                         title: 'SVMs and ANNs',
-                        icon: 'icons/RoundIcons_FreeSet-12.svg',
+                        icon: 'icons/science.svg',
                         tooltip: {content: 'SVMs and ANNs'},
                         children: [
                         ]
@@ -124,7 +124,7 @@ export const statistics: SkillType[] = [
                     {
                         id: 'stats-predictive-4',
                         title: 'ABMs and sims',
-                        icon: 'icons/RoundIcons_FreeSet-12.svg',
+                        icon: 'icons/science.svg',
                         tooltip: {content: 'Agent-based modelling and simulations'},
                         children: [
                         ]
@@ -132,7 +132,7 @@ export const statistics: SkillType[] = [
                     {
                         id: 'stats-optim',
                         title: 'Optimisation/maximisation',
-                        icon: 'icons/RoundIcons_FreeSet-12.svg',
+                        icon: 'icons/science.svg',
                         tooltip: {content: 'Calculus for optimisation/maximisation'},
                         children: [
                         ]
@@ -221,7 +221,7 @@ export const programming: SkillType[] = [
                                             {
                                                 id: 'programming-model',
                                                 title:'Model',
-                                                icon: 'icons/RoundIcons_FreeSet-12.svg',
+                                                icon: 'icons/science.svg',
                                                 tooltip: {content:'Perform machine learning tasks in R or Python (e.g. using SciKit-Learn) such as multivariate linear regression'},
                                                 children:[
                                                 ]
