@@ -31,11 +31,12 @@ function App() {
     }
 
     return (
-        <article>
-            <div className={'App-header'}>
-                <h3>DACT Skill Tree</h3>
-            </div>
-            <section>
+        <div>
+            <header className={'App-header'}>
+                <h1 className={'title'}>DACT Skill Tree</h1>
+                <h3>Choose your own data analytics adventure!</h3>
+            </header>
+            <article>
                 <Tabs>
                     <TabList>
                         <Tab>Introduction</Tab>
@@ -79,8 +80,8 @@ function App() {
                         <button onClick={resetProfiles}>Reset profiles</button>
                     </TabPanel>
                 </Tabs>
-            </section>
-        </article>
+            </article>
+        </div>
     );
 }
 

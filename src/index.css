@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
   background-color: black;
   color: white;
@@ -12,8 +14,16 @@ h2 {
   font-size: 0.7rem;
 }
 
-h1 {
-  font-size: 1.0rem;
+header {
+  font-family: 'Lobster', cursive;
+}
+
+header > h3 {
+  font-size: 1.5rem;
+}
+
+h1.title {
+  font-size: 3.0rem;
 }
 
 p {
