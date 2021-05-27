@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/DACT-skill-tree/static/css/main.3a533571.chunk.css",
-    "main.js": "/DACT-skill-tree/static/js/main.932e088e.chunk.js",
-    "main.js.map": "/DACT-skill-tree/static/js/main.932e088e.chunk.js.map",
-    "runtime-main.js": "/DACT-skill-tree/static/js/runtime-main.74e631a6.js",
-    "runtime-main.js.map": "/DACT-skill-tree/static/js/runtime-main.74e631a6.js.map",
-    "static/css/2.1a1a8e53.chunk.css": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2e750973.chunk.js": "/DACT-skill-tree/static/js/2.2e750973.chunk.js",
-    "static/js/2.2e750973.chunk.js.map": "/DACT-skill-tree/static/js/2.2e750973.chunk.js.map",
-    "static/js/3.e9eefe6d.chunk.js": "/DACT-skill-tree/static/js/3.e9eefe6d.chunk.js",
-    "static/js/3.e9eefe6d.chunk.js.map": "/DACT-skill-tree/static/js/3.e9eefe6d.chunk.js.map",
-    "index.html": "/DACT-skill-tree/index.html",
-    "static/css/2.1a1a8e53.chunk.css.map": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css.map",
-    "static/css/main.3a533571.chunk.css.map": "/DACT-skill-tree/static/css/main.3a533571.chunk.css.map",
-    "static/js/2.2e750973.chunk.js.LICENSE.txt": "/DACT-skill-tree/static/js/2.2e750973.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.142df173.chunk.css",
+    "main.js": "/static/js/main.246a7ad9.chunk.js",
+    "main.js.map": "/static/js/main.246a7ad9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.608ab4b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.608ab4b8.js.map",
+    "static/css/2.1a1a8e53.chunk.css": "/static/css/2.1a1a8e53.chunk.css",
+    "static/js/2.f62bc46a.chunk.js": "/static/js/2.f62bc46a.chunk.js",
+    "static/js/2.f62bc46a.chunk.js.map": "/static/js/2.f62bc46a.chunk.js.map",
+    "static/js/3.e9eefe6d.chunk.js": "/static/js/3.e9eefe6d.chunk.js",
+    "static/js/3.e9eefe6d.chunk.js.map": "/static/js/3.e9eefe6d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a1a8e53.chunk.css.map": "/static/css/2.1a1a8e53.chunk.css.map",
+    "static/css/main.142df173.chunk.css.map": "/static/css/main.142df173.chunk.css.map",
+    "static/js/2.f62bc46a.chunk.js.LICENSE.txt": "/static/js/2.f62bc46a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/compass.97a04d42.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.74e631a6.js",
+    "static/js/runtime-main.608ab4b8.js",
     "static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2e750973.chunk.js",
-    "static/css/main.3a533571.chunk.css",
-    "static/js/main.932e088e.chunk.js"
+    "static/js/2.f62bc46a.chunk.js",
+    "static/css/main.142df173.chunk.css",
+    "static/js/main.246a7ad9.chunk.js"
   ]
 }
