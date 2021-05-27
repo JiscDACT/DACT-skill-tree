@@ -3,7 +3,7 @@
     "name": "Programming",
     "tree": [
       {
-        "id": "programming-basic",
+        "id": "pr-1",
         "title": "Programming basics",
         "icon": "icons/RoundIcons_FreeSet-35.svg",
         "tooltip": {
@@ -11,7 +11,7 @@
         },
         "children": [
           {
-            "id": "programming-open",
+            "id": "pr-2",
             "title": "Run projects",
             "icon": "icons/RoundIcons_FreeSet-58.svg",
             "tooltip": {
@@ -19,7 +19,7 @@
             },
             "children": [
               {
-                "id": "programming-create",
+                "id": "pr-3",
                 "title": "Create projects",
                 "icon": "icons/RoundIcons_FreeSet-07.svg",
                 "tooltip": {
@@ -27,7 +27,7 @@
                 },
                 "children": [
                   {
-                    "id": "python-data",
+                    "id": "pr-4",
                     "title": "Python data structures",
                     "icon": "icons/python.svg",
                     "tooltip": {
@@ -35,7 +35,7 @@
                     },
                     "children": [
                       {
-                        "id": "python-modules",
+                        "id": "pr-5",
                         "title": "Python modules",
                         "icon": "icons/python.svg",
                         "tooltip": {
@@ -44,7 +44,7 @@
                         "children": []
                       },
                       {
-                        "id": "python-comp",
+                        "id": "pr-6",
                         "title": "Python programming",
                         "icon": "icons/python.svg",
                         "tooltip": {
@@ -55,15 +55,15 @@
                     ]
                   },
                   {
-                    "id": "programming-import",
+                    "id": "prd-1",
                     "title": "Dataframes",
                     "icon": "icons/RoundIcons_FreeSet-53.svg",
                     "tooltip": {
-                      "content": "Import data into dataframes in R or Python (e.g. using Pandas) and describe them"
+                      "content": "Import data into dataframes in R or Python (e.g. using Pandas) and describe them."
                     },
                     "children": [
                       {
-                        "id": "programming-aggregate",
+                        "id": "prd-2",
                         "title": "Aggregations",
                         "icon": "icons/RoundIcons_FreeSet-33.svg",
                         "tooltip": {
@@ -73,7 +73,7 @@
                         ]
                       },
                       {
-                        "id": "programming-reshape",
+                        "id": "prd-3",
                         "title": "Reshape",
                         "icon": "icons/RoundIcons_FreeSet-33.svg",
                         "tooltip": {
@@ -83,7 +83,7 @@
                         ]
                       },
                       {
-                        "id": "programming-analysis",
+                        "id": "prd-4",
                         "title": "Analyse",
                         "icon": "icons/RoundIcons_FreeSet-33.svg",
                         "tooltip": {
@@ -91,7 +91,7 @@
                         },
                         "children": [
                           {
-                            "id": "programming-model",
+                            "id": "prd-5",
                             "title": "Model",
                             "icon": "icons/science.svg",
                             "tooltip": {
@@ -105,23 +105,23 @@
                     ]
                   },
                   {
-                    "id": "programming-import-csv",
+                    "id": "prm-1",
                     "title": "CSV",
                     "icon": "icons/csv.svg",
                     "tooltip": {
-                      "content": "Load and work with CSV data"
+                      "content": "Load and work with CSV data using Python or R"
                     },
                     "children": [
                       {
-                        "id": "programming-clean-csv",
+                        "id": "prm-2",
                         "title": "Cleaning CSVs",
                         "icon": "icons/csv.svg",
                         "tooltip": {
-                          "content": "Clean up CSV data"
+                          "content": "Clean up CSV data using Python or R"
                         },
                         "children": [
                           {
-                            "id": "programming-csv-end-to-end",
+                            "id": "prm-3",
                             "title": "Create a data app",
                             "icon": "icons/csv.svg",
                             "tooltip": {
@@ -135,7 +135,7 @@
                     ]
                   },
                   {
-                    "id": "programming-xml",
+                    "id": "prm-4",
                     "title": "XML and text",
                     "icon": "icons/xml.svg",
                     "tooltip": {
@@ -145,7 +145,7 @@
                     ]
                   },
                   {
-                    "id": "programming-version",
+                    "id": "prp-1",
                     "title": "Git",
                     "icon": "icons/RoundIcons_FreeSet-19.svg",
                     "tooltip": {
@@ -153,7 +153,7 @@
                     },
                     "children": [
                       {
-                        "id": "programming-ci",
+                        "id": "prp-2",
                         "title": "CI/CD",
                         "icon": "icons/devops.svg",
                         "tooltip": {
@@ -161,7 +161,7 @@
                         },
                         "children": [
                           {
-                            "id": "programming-mg",
+                            "id": "prp-3",
                             "title": "DevOps",
                             "icon": "icons/devops.svg",
                             "tooltip": {
@@ -173,7 +173,7 @@
                         ]
                       },
                       {
-                        "id": "programming-arch",
+                        "id": "prp-4",
                         "title": "Architecture",
                         "icon": "icons/RoundIcons_FreeSet-19.svg",
                         "tooltip": {
@@ -183,7 +183,7 @@
                         ]
                       },
                       {
-                        "id": "programming-testing",
+                        "id": "prp-5",
                         "title": "Testing",
                         "icon": "icons/RoundIcons_FreeSet-19.svg",
                         "tooltip": {

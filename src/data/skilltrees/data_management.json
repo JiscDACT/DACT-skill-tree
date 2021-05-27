@@ -1,0 +1,163 @@
+{
+  "tree": {
+    "name": "Data management",
+    "tree": [
+      {
+        "id": "dmg-1",
+        "title": "File and data management basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Organise files and spreadsheets."
+        },
+        "children": [
+          {
+            "id": "dmg-2",
+            "title": "Data management fundamentals",
+            "icon": "icons/RoundIcons_FreeSet-35.svg",
+            "tooltip": {
+              "content": "Can access sql databases, carries out basic data checks. Uses automated processes where available. Can search open data."
+            },
+            "children": [
+              {
+                "id": "dmg-3",
+                "title": "Data management best practice 1",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Follows best practise for the safe and secure access, management and storage of data, updates documentation pro-actively. "
+                },
+                "children": [
+                  {
+                    "id": "dmg-4",
+                    "title": "Data management best practice 2",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Well versed in best practises for data management, ensuring data processing is done correctly in a repeatable, quality-assured manner. "
+                    },
+                    "children": [
+                      {
+                        "id": "dmg-5",
+                        "title": "Data management best practice 3",
+                        "icon": "icons/practices.png",
+                        "tooltip": {
+                          "content": "Continuously refines data management practices and trains others."
+                        },
+                        "children": [
+
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "alt-1",
+                "title": "Running Workflows",
+                "icon": "icons/pipe.svg",
+                "tooltip": {
+                  "content": "Run a  workflow created by colleagues, e.g. using Alteryx"
+                },
+                "children": [
+                  {
+                    "id": "alt-2",
+                    "title": "Creating Workflows",
+                    "icon": "icons/pipe.svg",
+                    "tooltip": {
+                      "content": "Create  workflows to load, clean ,merge and reshape data (e.g. using Alteryx)"
+                    },
+                    "children": [
+                      {
+                        "id": "alt-3",
+                        "title": "Workflows with databases",
+                        "icon": "icons/database.png",
+                        "tooltip": {
+                          "content": "Create  workflows that utilise external non-file connections to improve performance, e.g. using in-DB tools in Alteryx"
+                        },
+                        "children": [
+                          {
+                            "id": "alt-4",
+                            "title": "Optimising data sources",
+                            "icon": "icons/database.png",
+                            "tooltip": {
+                              "content": "Design new datamarts to support analytics"
+                            },
+                            "children": [
+
+                            ]
+                          },
+                          {
+                            "id": "alt-5",
+                            "title": "Alternative data sources",
+                            "icon": "icons/database.png",
+                            "tooltip": {
+                              "content": "Choose appropriate data representation methodology for new data marts (tuple, relational, graph)"
+                            },
+                            "children": [
+
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "alt-6",
+                        "title": "Workflow macros",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Create  workflows with advanced features such as macros, dynamic tools"
+                        },
+                        "children": [
+                          {
+                            "id": "alt-7",
+                            "title": "Workflow components",
+                            "icon": "icons/pipe.svg",
+                            "tooltip": {
+                              "content": "Create new reusable data processing components for team to use, e.g. Alteryx macros, python apps and batch scripts"
+                            },
+                            "children": [
+
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "alt-8",
+                        "title": "Workflow tests",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Incorporate tests within or alongside workflows to perform QA checks, e.g. Alteryx Test tools, Kinesis CI"
+                        },
+                        "children": [
+
+                        ]
+                      },
+                      {
+                        "id": "alt-9",
+                        "title": "Flexible data pipelines",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Build pipelines involving multiple technologies and methods (e.g. Python + R + SQL + Alteryx)"
+                        },
+                        "children": [
+                          {
+                            "id": "alt-10",
+                            "title": "Advanced data pipelines",
+                            "icon": "icons/pipe.svg",
+                            "tooltip": {
+                              "content": "Designs advanced wrangling methods using techniques such as machine learning and natural language processing. Writes automated processes.  Is able to use more complex database warehouses and languages (eg graph and sparql). "
+                            },
+                            "children": [
+
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -29,6 +29,9 @@ function App() {
     function resetProfiles(){
         changeProfiles(updateProfiles(getEmptyProfiles(), []))
     }
+    function clearAllData(){
+        localStorage.clear()
+    }
 
     return (
         <div>
@@ -58,6 +61,9 @@ function App() {
                             are not owned or licensed for use.
                                 If you own an image and want it removed,
                             just let me know and I'll remove it. </p>
+
+                            <p>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                            <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
                         </div>
                     </TabPanel>
                     <TabPanel>
@@ -78,6 +84,7 @@ function App() {
                     }
                     <TabPanel>
                         <button onClick={resetProfiles}>Reset profiles</button>
+                        <button onClick={clearAllData}>Clear all stored data</button>
                     </TabPanel>
                 </Tabs>
             </article>
