@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "https://scottbw.github.io/DACT-skill-tree/static/css/main.12321cb4.chunk.css",
-    "main.js": "https://scottbw.github.io/DACT-skill-tree/static/js/main.6f5f9e6b.chunk.js",
-    "main.js.map": "https://scottbw.github.io/DACT-skill-tree/static/js/main.6f5f9e6b.chunk.js.map",
-    "runtime-main.js": "https://scottbw.github.io/DACT-skill-tree/static/js/runtime-main.b7a6b1c9.js",
-    "runtime-main.js.map": "https://scottbw.github.io/DACT-skill-tree/static/js/runtime-main.b7a6b1c9.js.map",
-    "static/css/2.1a1a8e53.chunk.css": "https://scottbw.github.io/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2102b7cd.chunk.js": "https://scottbw.github.io/DACT-skill-tree/static/js/2.2102b7cd.chunk.js",
-    "static/js/2.2102b7cd.chunk.js.map": "https://scottbw.github.io/DACT-skill-tree/static/js/2.2102b7cd.chunk.js.map",
-    "static/js/3.9ff0fd42.chunk.js": "https://scottbw.github.io/DACT-skill-tree/static/js/3.9ff0fd42.chunk.js",
-    "static/js/3.9ff0fd42.chunk.js.map": "https://scottbw.github.io/DACT-skill-tree/static/js/3.9ff0fd42.chunk.js.map",
-    "index.html": "https://scottbw.github.io/DACT-skill-tree/index.html",
-    "static/css/2.1a1a8e53.chunk.css.map": "https://scottbw.github.io/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css.map",
-    "static/css/main.12321cb4.chunk.css.map": "https://scottbw.github.io/DACT-skill-tree/static/css/main.12321cb4.chunk.css.map",
-    "static/js/2.2102b7cd.chunk.js.LICENSE.txt": "https://scottbw.github.io/DACT-skill-tree/static/js/2.2102b7cd.chunk.js.LICENSE.txt",
-    "static/media/App.css": "https://scottbw.github.io/DACT-skill-tree/static/media/compass.97a04d42.png"
+    "main.css": "/DACT-skill-tree/static/css/main.0e787c15.chunk.css",
+    "main.js": "/DACT-skill-tree/static/js/main.d2b31ad7.chunk.js",
+    "main.js.map": "/DACT-skill-tree/static/js/main.d2b31ad7.chunk.js.map",
+    "runtime-main.js": "/DACT-skill-tree/static/js/runtime-main.766731b2.js",
+    "runtime-main.js.map": "/DACT-skill-tree/static/js/runtime-main.766731b2.js.map",
+    "static/css/2.1a1a8e53.chunk.css": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css",
+    "static/js/2.b243062b.chunk.js": "/DACT-skill-tree/static/js/2.b243062b.chunk.js",
+    "static/js/2.b243062b.chunk.js.map": "/DACT-skill-tree/static/js/2.b243062b.chunk.js.map",
+    "static/js/3.9ff0fd42.chunk.js": "/DACT-skill-tree/static/js/3.9ff0fd42.chunk.js",
+    "static/js/3.9ff0fd42.chunk.js.map": "/DACT-skill-tree/static/js/3.9ff0fd42.chunk.js.map",
+    "index.html": "/DACT-skill-tree/index.html",
+    "static/css/2.1a1a8e53.chunk.css.map": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css.map",
+    "static/css/main.0e787c15.chunk.css.map": "/DACT-skill-tree/static/css/main.0e787c15.chunk.css.map",
+    "static/js/2.b243062b.chunk.js.LICENSE.txt": "/DACT-skill-tree/static/js/2.b243062b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/DACT-skill-tree/static/media/compass.97a04d42.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7a6b1c9.js",
+    "static/js/runtime-main.766731b2.js",
     "static/css/2.1a1a8e53.chunk.css",
-    "static/js/2.2102b7cd.chunk.js",
-    "static/css/main.12321cb4.chunk.css",
-    "static/js/main.6f5f9e6b.chunk.js"
+    "static/js/2.b243062b.chunk.js",
+    "static/css/main.0e787c15.chunk.css",
+    "static/js/main.d2b31ad7.chunk.js"
   ]
 }
