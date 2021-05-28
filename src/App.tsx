@@ -30,11 +30,12 @@ function App() {
         changeProfiles(updateProfiles(getEmptyProfiles(), []))
     }
     function clearAllData(){
+        resetProfiles()
         localStorage.clear()
     }
 
     return (
-        <div>
+        <div className={'App'}>
             <header className={'App-header'}>
                 <h1 className={'title'}>DACT Skill Tree</h1>
                 <h3>Choose your own data analytics adventure!</h3>
@@ -55,15 +56,16 @@ function App() {
                     </TabList>
                     <TabPanel>
                         <div>
-                            <h1>DACT Skill Tree</h1>
-                            <p>Interactive skill tree and job profiler!</p>
-                            <p>This is a demo only! The images it uses are all development placeholders and
-                            are not owned or licensed for use.
-                                If you own an image and want it removed,
-                            just let me know and I'll remove it. </p>
-
-                            <p>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-                            <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+                            <div className={'hero'}>
+                                <h1>Introduction</h1>
+                                <p>This is an interactive skill tree: select skills in the areas
+                                    in each tab, and then check out the Profiles tab to see which specialisms
+                                    you are most closely matching</p>
+                                <p>The data is only stored locally in your browser so feel free to play.</p>
+                                <p>If you want to reset everything, there are buttons for this on the end tab.</p>
+                                <p>Note that as this is currently just a demo/work-in-progress, it may change
+                                    at any time, and your profile may be lost.</p>
+                            </div>
                         </div>
                     </TabPanel>
                     <TabPanel>
@@ -88,6 +90,17 @@ function App() {
                     </TabPanel>
                 </Tabs>
             </article>
+            <footer>
+                <p>This is a demo only! The images it uses are all development placeholders and
+                    are not owned or licensed for use.
+                    If you own an image and want it removed,
+                    just let me know and I'll remove it. </p>
+                <p>Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs"
+                                    title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/"
+                                                                                  title="Flaticon">www.flaticon.com</a></p>
+                <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                    href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+            </footer>
         </div>
     );
 }
