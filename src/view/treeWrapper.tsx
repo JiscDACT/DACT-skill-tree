@@ -10,8 +10,8 @@ export class TreeWrapper extends Component<any> {
                 <SkillTreeGroup
                     theme={
                         {
-                            borderRadius: '32px',
                             nodeBorderColor: 'grey',
+                            nodeBorderRadius: '32px',
                             nodeHoverBorder: 'none',
                             edgeBorder: '1px solid grey'
                         }
