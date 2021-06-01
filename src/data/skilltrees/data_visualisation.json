@@ -1,0 +1,156 @@
+{
+  "tree": {
+    "name": "Data visualisation",
+    "tree": [
+      {
+        "id": "viz-1",
+        "title": "Data visualisation basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Understand the basic purpose of data visualisation, such as charts and infographics."
+        },
+        "children": [
+          {
+            "id": "vbp-1",
+            "title": "Best practice 1",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Creates report appropriate graphics to convey the data story"
+            },
+            "children": [
+              {
+                "id": "vbp-2",
+                "title": "Suppression and rounding",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Apply suppression and rounding to data visualisations"
+                },
+                "children": []
+              },
+              {
+                "id": "vbp-3",
+                "title": "Best practice 2",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Uses appropriate methods to convey information and insight based on audience and nature of the data"
+                },
+                "children": [
+                ]
+              }
+            ]
+          },
+          {
+            "id": "viz-2",
+            "title": "Basic charts",
+            "icon": "icons/RoundIcons_FreeSet-43.svg",
+            "tooltip": {
+              "content": "Can create two dimensional charts in Excel, Tableau, PowerBI or similar"
+            },
+            "children": [
+              {
+                "id": "viz-3",
+                "title": "Interactivity",
+                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                "tooltip": {
+                  "content": "Implement interactivity, e.g. using Tableau Actions"
+                },
+                "children": [
+                  {
+                    "id": "viz-4",
+                    "title": "Sets  and filters",
+                    "icon": "icons/RoundIcons_FreeSet-43.svg",
+                    "tooltip": {
+                      "content": "Implement advanced Tableau interactivity, e.g. using Set Actions and Parameter actions"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "viz-5",
+                    "title": "What-if",
+                    "icon": "icons/RoundIcons_FreeSet-43.svg",
+                    "tooltip": {
+                      "content": "Implement Parameter-driven what-if analysis"
+                    },
+                    "children": [
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "viz-6",
+                "title": "Custom visualisation types e.g.  Polar, Radar",
+                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                "tooltip": {
+                  "content": "Create custom visualisation types   e.g.  Polar, Radar"
+                },
+                "children": [
+                ]
+              },
+              {
+                "id": "viz-7",
+                "title": "Trends and changes",
+                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                "tooltip": {
+                  "content": "Implement trends and YOY changes in visualisations"
+                },
+                "children": [
+                  {
+                    "id": "viz-8",
+                    "title": "Linear forecasting",
+                    "icon": "icons/RoundIcons_FreeSet-43.svg",
+                    "tooltip": {
+                      "content": "Implement linear forecasts in visualisations"
+                    },
+                    "children": [
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "viz-9",
+            "title": "Mapping",
+            "icon": "icons/RoundIcons_FreeSet-15.svg",
+            "tooltip": {
+              "content": "Implement maps (filled, point) in data visualisations"
+            },
+            "children": [
+              {
+                "id": "viz-10",
+                "title": "Advanced mapping",
+                "icon": "icons/RoundIcons_FreeSet-15.svg",
+                "tooltip": {
+                  "content": "Use paths, distances, layers and other advanced map features"
+                },
+                "children": [
+                ]
+              }
+            ]
+          },
+          {
+            "id": "viz-11",
+            "title": "Web visualisation",
+            "icon": "icons/RoundIcons_FreeSet-43.svg",
+            "tooltip": {
+              "content": "Create visualisations for the web, eg. using D3.js"
+            },
+            "children": [
+              {
+                "id": "viz-12",
+                "title": "3D",
+                "icon": "icons/RoundIcons_FreeSet-43.svg",
+                "tooltip": {
+                  "content": "Create 3d models e.g. using Blender"
+                },
+                "children": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
