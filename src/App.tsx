@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {getEmptyProfiles, getProfiles} from './model/skillProfile'
+import {getEmptyProfiles, getProfiles, getSkills, formatSkills} from './model/skillProfile'
 import {updateProfiles} from "./model/skillProfile";
 import {ProfileGroup} from "./view/profileGroup";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
@@ -16,10 +16,12 @@ function App() {
     });
 
     const [profiles, changeProfiles] = useState(getProfiles());
+    const [userSkills, changeUserSkills] = useState(getSkills());
 
     function myHandleSave(storage: any, treeId: any, skills: any) {
         changeProfiles(updateProfiles(profiles, skills))
         storage.setItem("profiles", JSON.stringify(profiles))
+        changeUserSkills(formatSkills(skills))
         return storage.setItem("skills-" + treeId, JSON.stringify(skills));
     }
 
@@ -32,6 +34,7 @@ function App() {
     function clearAllData(){
         resetProfiles()
         localStorage.clear()
+        changeUserSkills('')
     }
 
     return (
@@ -87,6 +90,7 @@ function App() {
                     <TabPanel>
                         <button onClick={resetProfiles}>Reset profiles</button>
                         <button onClick={clearAllData}>Clear all stored data</button>
+                        <p><textarea value={userSkills} readOnly={true}/></p>
                     </TabPanel>
                 </Tabs>
             </article>

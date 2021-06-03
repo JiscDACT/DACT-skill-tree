@@ -1,9 +1,9 @@
 import {Skill} from "beautiful-skill-tree/dist/models";
 import {requireAll} from "../util";
 
-let data = requireAll( require.context("../data/profiles/", false, /.json$/) )
-const profiles = data.map(function(obj:any) {
-        return obj.profile;
+let data = requireAll(require.context("../data/profiles/", false, /.json$/))
+const profiles = data.map(function (obj: any) {
+    return obj.profile;
 });
 
 export class SkillProfile {
@@ -27,7 +27,28 @@ export function getProfiles(): SkillProfile[] {
     return getEmptyProfiles()
 }
 
-export function updateProfiles(profiles: any, skills:any){
+export function getSkills(): any {
+    let skills = localStorage.getItem("skills-DACT")
+    if (skills && typeof skills != 'undefined') {
+        return formatSkills(JSON.parse(skills))
+    }
+    return null;
+}
+
+export function formatSkills(skills: any): any {
+    let output = ''
+    if (skills && typeof skills != 'undefined') {
+        let i: keyof typeof skills
+        for (i in skills) {
+            if(skills[i].nodeState === 'selected') {
+                output += i + '\n'
+            }
+        }
+    }
+    return output
+}
+
+export function updateProfiles(profiles: any, skills: any) {
     let newProfileList = []
     for (let i in profiles) {
         let profile = profiles[i]
@@ -43,7 +64,7 @@ export function updateProfiles(profiles: any, skills:any){
             }
         }
         let completion = Math.round((skillsCompleted / skillsTotal) * 100);
-        if(!completion){
+        if (!completion) {
             completion = 0;
         }
         profile.completion = completion

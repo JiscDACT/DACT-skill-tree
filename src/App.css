@@ -135,3 +135,8 @@ code {
   align-content: center;
   max-width: 60%;
 }
+
+textarea {
+  min-width: 80%;
+  height: 200px;
+}
