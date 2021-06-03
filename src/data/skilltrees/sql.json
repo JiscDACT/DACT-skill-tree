@@ -1,0 +1,180 @@
+{
+  "tree": {
+    "name": "SQL and databases",
+    "tree": [
+      {
+        "id": "sql-1",
+        "title": "Database basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Can access a database using ODBC or SQL Server management tool and run existing queries."
+        },
+        "children": [
+          {
+            "id": "sql-2",
+            "title": "Basic queries",
+            "icon": "icons/RoundIcons_FreeSet-35.svg",
+            "tooltip": {
+              "content": "Can create a simple script using templates or tweaking an existing script."
+            },
+            "children": [
+              {
+                "id": "sql-python-1",
+                "title": "Python and databases",
+                "icon": "icons/python.svg",
+                "tooltip": {
+                  "content": "Connect to databases using Python, e.g. SQLAlchemy"
+                },
+                "children": [
+                  {
+                    "id": "sql-python-2",
+                    "title": "Python queries with parameters",
+                    "icon": "icons/python.svg",
+                    "tooltip": {
+                      "content": "Use parameterised queries and procedures using SQLAlchemy"
+                    },
+                    "children": [
+                      {
+                        "id": "sql-python-3",
+                        "title": "Python import, export and ETL",
+                        "icon": "icons/python.svg",
+                        "tooltip": {
+                          "content": "Use Python to import and export data, anc create ETL/LTE pipelines"
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "sql-opt-1",
+                "title": "Indexes",
+                "icon": "icons/optimisation.png",
+                "tooltip": {
+                  "content": "Improve database performance using indexes"
+                },
+                "children": [
+                  {
+                    "id": "sql-opt-2",
+                    "title": "Query performance",
+                    "icon": "icons/optimisation.png",
+                    "tooltip": {
+                      "content": "Improve query performance using EXPLAIN and other tools"
+                    },
+                    "children": [
+                      {
+                        "id": "sql-opt-3",
+                        "title": "Table and database performance",
+                        "icon": "icons/optimisation.png",
+                        "tooltip": {
+                          "content": "Improve table and database performance by optimising schema design"
+                        },
+                        "children": [
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "sql-design-1",
+                "title": "Views",
+                "icon": "icons/database.png",
+                "tooltip": {
+                  "content": "Design views for specific purposes"
+                },
+                "children": [
+                  {
+                    "id": "sql-design-2",
+                    "title": "Database design",
+                    "icon": "icons/database.png",
+                    "tooltip": {
+                      "content": "Design new database structures to support analysis"
+                    },
+                    "children": [
+                      {
+                        "id": "sql-design-4",
+                        "title": "Query-optimised databases",
+                        "icon": "icons/database.png",
+                        "tooltip": {
+                          "content": "Build datamarts using star schema and similar patterns"
+                        },
+                        "children": [
+
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "sql-design-3",
+                    "title": "ETL",
+                    "icon": "icons/database.png",
+                    "tooltip": {
+                      "content": "Create procedures for ETL pipelines to populate a database or move data from staging to production"
+                    },
+                    "children": [
+
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "sql-3",
+                "title": "Joins",
+                "icon": "icons/query.png",
+                "tooltip": {
+                  "content": "Can join datasets together, understanding the different relationships between 1-1, 1-many etc and how this affects the joining process."
+                },
+                "children": [
+                  {
+                    "id": "sql-4",
+                    "title": "Complex queries",
+                    "icon": "icons/query.png",
+                    "tooltip": {
+                      "content": "Design more complex queries, e.g. for H+ extracts."
+                    },
+                    "children": [
+                      {
+                        "id": "sql-10",
+                        "title": "Aggregations and window functions",
+                        "icon": "icons/query.png",
+                        "tooltip": {
+                          "content": "Use window functions and aggregation, e.g. for suppression."
+                        },
+                        "children": [
+
+                        ]
+                      },
+                      {
+                        "id": "sql-8",
+                        "title": "Functions",
+                        "icon": "icons/query.png",
+                        "tooltip": {
+                          "content": "Create more complex queries using built-in functions."
+                        },
+                        "children": [
+                          {
+                            "id": "sql-9",
+                            "title": "Stored procedures",
+                            "icon": "icons/query.png",
+                            "tooltip": {
+                              "content": "Modularise and reuse components of queries using stored procedures."
+                            },
+                            "children": [
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

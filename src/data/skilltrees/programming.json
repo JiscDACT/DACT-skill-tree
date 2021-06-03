@@ -13,7 +13,7 @@
           {
             "id": "pr-2",
             "title": "Run projects",
-            "icon": "icons/RoundIcons_FreeSet-58.svg",
+            "icon": "icons/RoundIcons_FreeSet-35.svg",
             "tooltip": {
               "content": "Can open and run a notebook/project created by another."
             },
@@ -21,7 +21,7 @@
               {
                 "id": "pr-3",
                 "title": "Create projects",
-                "icon": "icons/RoundIcons_FreeSet-07.svg",
+                "icon": "icons/RoundIcons_FreeSet-35.svg",
                 "tooltip": {
                   "content": "Create a new Python or R project and set up dependencies"
                 },
