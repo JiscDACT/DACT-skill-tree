@@ -41,14 +41,24 @@
                         "tooltip": {
                           "content": "Organise code with modules and imports"
                         },
-                        "children": []
+                        "children": [
+                          {
+                            "id": "pr-7",
+                            "title": "Python apps",
+                            "icon": "icons/python.svg",
+                            "tooltip": {
+                              "content": "Build command-line apps that can install and run natively as a .exe and be incorporated into pipelines"
+                            },
+                            "children": []
+                          }
+                        ]
                       },
                       {
                         "id": "pr-6",
                         "title": "Python programming",
                         "icon": "icons/python.svg",
                         "tooltip": {
-                          "content": "Confidently implement algorithms in Python"
+                          "content": "Manages and reuses code efficiently in Python according to DRY principles, using functions, classes, and modules"
                         },
                         "children": []
                       }
@@ -102,46 +112,6 @@
                           }
                         ]
                       }
-                    ]
-                  },
-                  {
-                    "id": "prm-1",
-                    "title": "CSV",
-                    "icon": "icons/csv.svg",
-                    "tooltip": {
-                      "content": "Load and work with CSV data using Python or R"
-                    },
-                    "children": [
-                      {
-                        "id": "prm-2",
-                        "title": "Cleaning CSVs",
-                        "icon": "icons/csv.svg",
-                        "tooltip": {
-                          "content": "Clean up CSV data using Python or R"
-                        },
-                        "children": [
-                          {
-                            "id": "prm-3",
-                            "title": "Create a data app",
-                            "icon": "icons/csv.svg",
-                            "tooltip": {
-                              "content": "Create a program to load, clean and export data"
-                            },
-                            "children": [
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "id": "prm-4",
-                    "title": "XML and text",
-                    "icon": "icons/xml.svg",
-                    "tooltip": {
-                      "content": "Use Python or R to process XML and HTML documents and extract data and text e.g. using LXML"
-                    },
-                    "children": [
                     ]
                   },
                   {

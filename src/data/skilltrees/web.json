@@ -103,7 +103,7 @@
                         "title":  "Web Apps",
                         "icon": "icons/app.png",
                         "tooltip": {
-                          "content": "Build and deploy web apps using frameworks such as React"
+                          "content": "Build and deploy web apps using frameworks such as React or Flask"
                         },
                         "children": [
 

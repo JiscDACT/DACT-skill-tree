@@ -39,7 +39,7 @@
                         "title": "Python import, export and ETL",
                         "icon": "icons/python.svg",
                         "tooltip": {
-                          "content": "Use Python to import and export data, anc create ETL/LTE pipelines"
+                          "content": "Use Python to import and export data, and create ETL/LTE pipelines"
                         },
                         "children": [
                         ]
