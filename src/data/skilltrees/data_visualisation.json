@@ -12,10 +12,10 @@
         "children": [
           {
             "id": "vbp-1",
-            "title": "Best practice 1",
+            "title": "Visualisation best practice",
             "icon": "icons/practices.png",
             "tooltip": {
-              "content": "Creates report appropriate graphics to convey the data story"
+              "content": "Creates report using appropriate visualisations to convey the data story"
             },
             "children": [
               {
@@ -23,16 +23,16 @@
                 "title": "Suppression and rounding",
                 "icon": "icons/practices.png",
                 "tooltip": {
-                  "content": "Apply suppression and rounding to data visualisations"
+                  "content": "Apply suppression and rounding to data visualisations."
                 },
                 "children": []
               },
               {
                 "id": "vbp-3",
-                "title": "Best practice 2",
+                "title": "Accessibility",
                 "icon": "icons/practices.png",
                 "tooltip": {
-                  "content": "Uses appropriate methods to convey information and insight based on audience and nature of the data"
+                  "content": "Follows best practices in making visualisations accessible."
                 },
                 "children": [
                 ]
