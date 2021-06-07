@@ -1,0 +1,126 @@
+{
+  "tree": {
+    "name": "Research methods",
+    "tree": [
+      {
+        "id": "rm-1",
+        "title": "References and citations",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Use references correctly."
+        },
+        "children": [
+          {
+            "id": "rw-1",
+            "title": "Internal reports",
+            "icon": "icons/RoundIcons_FreeSet-40.svg",
+            "tooltip": {
+              "content": "Create internal research reports."
+            },
+            "children": [
+              {
+                "id": "rw-2",
+                "title": "Conference papers",
+                "icon": "icons/RoundIcons_FreeSet-40.svg",
+                "tooltip": {
+                  "content": "Can create and publish conference-quality papers"
+                },
+                "children": [
+                  {
+                    "id": "rw-3",
+                    "title": "Journal papers",
+                    "icon": "icons/RoundIcons_FreeSet-40.svg",
+                    "tooltip": {
+                      "content": "Create journal-quality papers."
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rm-2",
+            "title": "Literature review",
+            "icon": "icons/RoundIcons_FreeSet-40.svg",
+            "tooltip": {
+              "content": "Conduct a systematic literature review."
+            },
+            "children": [
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rh-1",
+        "title": "Basic hypothesis testing",
+        "icon": "icons/science.svg",
+        "tooltip": {
+          "content": "Can formulate and test a simple hypothesis."
+        },
+        "children": [
+          {
+            "id": "rh-2",
+            "title": "Research design",
+            "icon": "icons/science.svg",
+            "tooltip": {
+              "content": "Can answer straightforward research questions with clear goals, developing and testing hypotheses."
+            },
+            "children": [
+              {
+                "id": "rh-3",
+                "title": "Advanced research design",
+                "icon": "icons/science.svg",
+                "tooltip": {
+                  "content": "Tackles more ambiguous questions that require less common approaches. Designs robust methods to address the question. Knows what is enough data of the appropriate type to unambiguously answer the question."
+                },
+                "children": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q-1",
+        "title": "Running a questionnaire",
+        "icon": "icons/survey.png",
+        "tooltip": {
+          "content": "Adapt an existing questionnaire, e.g. to re-run in Online Surveys."
+        },
+        "children": [
+          {
+            "id": "q-2",
+            "title": "Questionnaire setup",
+            "icon": "icons/survey.png",
+            "tooltip": {
+              "content": "Create new questionnaires using standard questions."
+            },
+            "children": [
+              {
+                "id": "q-3",
+                "title": "Questionnaire design",
+                "icon": "icons/survey.png",
+                "tooltip": {
+                  "content": "Design new questionnaire questions based on understanding of the domain and how the results need to be analysed."
+                },
+                "children": [
+                  {
+                    "id": "q-4",
+                    "title": "Advanced questionnaire design",
+                    "icon": "icons/survey.png",
+                    "tooltip": {
+                      "content": "Design a new survey based on a set of research requirements."
+                    },
+                    "children": [
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

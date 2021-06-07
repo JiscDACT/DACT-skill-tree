@@ -1,0 +1,97 @@
+{
+  "tree": {
+    "name": "Technical writing",
+    "tree": [
+      {
+        "id": "twx-1",
+        "title": "Basic report writing",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Write on basic technical topics for an external audience, e.g. contribute analysis input to reports"
+        },
+        "children": [
+          {
+            "id": "twx-2",
+            "title": "Complex topics",
+            "icon": "icons/RoundIcons_FreeSet-40.svg",
+            "tooltip": {
+              "content": "Write on complex technical topics for an external audience, e.g. communicating data insights from surveys."
+            },
+            "children": [
+              {
+                "id": "twx-3",
+                "title": "Communicate data insights",
+                "icon": "icons/RoundIcons_FreeSet-40.svg",
+                "tooltip": {
+                  "content": "Write clearly and engagingly on complex technical topics for a wide range of audiences, identifying the story points from data."
+                },
+                "children": [
+                  {
+                    "id": "twx-4",
+                    "title": "Information design",
+                    "icon": "icons/RoundIcons_FreeSet-40.svg",
+                    "tooltip": {
+                      "content": "Designs, develops, evaluates the best way to convey insights to the end user, unconstrained by medium. Adapts tone of voice to the audience."
+                    },
+                    "children": [
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tw-1",
+        "title": "Basic technical writing",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Write internal bug reports and issues."
+        },
+        "children": [
+          {
+            "id": "tw-2",
+            "title": "Documentation",
+            "icon": "icons/RoundIcons_FreeSet-40.svg",
+            "tooltip": {
+              "content": "Write internal documentation, e.g. code comments and specifications"
+            },
+            "children": [
+              {
+                "id": "tw-3",
+                "title": "Proposals",
+                "icon": "icons/RoundIcons_FreeSet-40.svg",
+                "tooltip": {
+                  "content": "Write internal technical proposals, e.g. for data panel"
+                },
+                "children": [
+                  {
+                    "id": "tw-4",
+                    "title": "Internal user documentation",
+                    "icon": "icons/RoundIcons_FreeSet-40.svg",
+                    "tooltip": {
+                      "content": "Write internal user documentation, e.g. for sharepoint, or handover to CS."
+                    },
+                    "children": [
+                      {
+                        "id": "tw-5",
+                        "title": "End user documentation",
+                        "icon": "icons/RoundIcons_FreeSet-40.svg",
+                        "tooltip": {
+                          "content": "Write external user documentation, e.g. for website and manuals"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
