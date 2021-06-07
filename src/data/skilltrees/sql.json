@@ -102,8 +102,7 @@
                           "content": "Build datamarts using star schema and similar patterns"
                         },
                         "children": [
-
-A                        ]
+                        ]
                       },
                       {
                         "id": "sql-design-5",
@@ -124,7 +123,6 @@ A                        ]
                           "content": "Build solutions Azure SQL and other cloud-based data platforms."
                         },
                         "children": [
-
                         ]
                       }
                     ]
