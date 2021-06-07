@@ -103,6 +103,16 @@
                         },
                         "children": [
                         ]
+                      },
+                      {
+                        "id": "alt-11",
+                        "title": "Alternative pipeline tools",
+                        "icon": "icons/pipe.svg",
+                        "tooltip": {
+                          "content": "Use tools such as Apache Kafka, Airflow and Spark to build advanced pipelines. "
+                        },
+                        "children": [
+                        ]
                       }
                     ]
                   }

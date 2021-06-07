@@ -103,6 +103,28 @@
                         },
                         "children": [
 
+A                        ]
+                      },
+                      {
+                        "id": "sql-design-5",
+                        "title": "Specialised data platforms",
+                        "icon": "icons/database.png",
+                        "tooltip": {
+                          "content": "Build solutions using Snowflake, Hadoop and other specialised data platforms."
+                        },
+                        "children": [
+
+                        ]
+                      },
+                      {
+                        "id": "sql-design-6",
+                        "title": "Cloud databases",
+                        "icon": "icons/database.png",
+                        "tooltip": {
+                          "content": "Build solutions Azure SQL and other cloud-based data platforms."
+                        },
+                        "children": [
+
                         ]
                       }
                     ]
