@@ -4,7 +4,7 @@
     "color": "DeepSkyBlue",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "skills": [
-     "alt-1","alt-2","alt-8","alt-9","prm-1","prm-2","prm-4"
+     "alt-1","alt-2","alt-3","alt-4", "alt-5","alt-6","alt-7","alt-8"
     ],
     "portrait": "portraits/portrait5.png",
     "completion": 0
