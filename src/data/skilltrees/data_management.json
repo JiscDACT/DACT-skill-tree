@@ -27,7 +27,7 @@
                 },
                 "children": [
                   {
-                    "id": "prm-4",
+                    "id": "alt-3",
                     "title": "Documentation and reuse",
                     "icon": "icons/practices.png",
                     "tooltip": {
@@ -37,7 +37,7 @@
                     ]
                   },
                   {
-                    "id": "prm-4",
+                    "id": "alt-4",
                     "title": "Workflows with text and markup",
                     "icon": "icons/xml.svg",
                     "tooltip": {
@@ -47,7 +47,7 @@
                     ]
                   },
                   {
-                    "id": "alt-3",
+                    "id": "alt-5",
                     "title": "Workflows with databases",
                     "icon": "icons/database.png",
                     "tooltip": {
