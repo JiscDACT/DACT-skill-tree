@@ -20,19 +20,38 @@ export function getEmptyProfiles() {
 }
 
 export function getProfiles(): SkillProfile[] {
-    let profiles = localStorage.getItem("profiles");
-    if (profiles && profiles !== "null") {
-        return JSON.parse(profiles);
-    }
-    return getEmptyProfiles()
+    let profiles = getEmptyProfiles();
+    let skills = getSkills();
+    profiles = updateProfiles(profiles, skills)
+    return profiles;
+
+    // let saved = localStorage.getItem("profiles");
+    // if (saved && saved !== "null") {
+    //     let savedProfiles:SkillProfile[] = JSON.parse(saved)
+    //     for (let i in savedProfiles){
+    //         let completion = savedProfiles[i].completion
+    //         let name = savedProfiles[i].name
+    //         for (let j in profiles){
+    //             if(profiles[j].name === name){
+    //                 profiles[j].completion = completion
+    //             }
+    //         }
+    //     }
+    //     return profiles;
+    // }
+    // return profiles
 }
 
 export function getSkills(): any {
     let skills = localStorage.getItem("skills-DACT")
     if (skills && typeof skills != 'undefined') {
-        return formatSkills(JSON.parse(skills))
+        return JSON.parse(skills)
     }
     return null;
+}
+
+export function getFormattedSkills(): any {
+    return formatSkills(getSkills())
 }
 
 export function formatSkills(skills: any): any {

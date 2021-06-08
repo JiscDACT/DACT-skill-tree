@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {getEmptyProfiles, getProfiles, getSkills, formatSkills} from './model/skillProfile'
+import {getEmptyProfiles, getProfiles, getFormattedSkills, formatSkills} from './model/skillProfile'
 import {updateProfiles} from "./model/skillProfile";
 import {ProfileGroup} from "./view/profileGroup";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
@@ -15,8 +15,8 @@ function App() {
         return obj.tree;
     });
 
+    const [userSkills, changeUserSkills] = useState(getFormattedSkills());
     const [profiles, changeProfiles] = useState(getProfiles());
-    const [userSkills, changeUserSkills] = useState(getSkills());
 
     function myHandleSave(storage: any, treeId: any, skills: any) {
         changeProfiles(updateProfiles(profiles, skills))
