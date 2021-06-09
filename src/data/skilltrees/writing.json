@@ -43,68 +43,58 @@
         ]
       },
       {
-        "id": "tw-1",
-        "title": "Basic technical writing",
-        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "id": "tw-2",
+        "title": "Internal reports",
+        "icon": "icons/RoundIcons_FreeSet-40.svg",
         "tooltip": {
-          "content": "Write internal documentation, e.g. code comments and specifications."
+          "content": "Write internal technical proposals, e.g. for data panel"
         },
         "children": [
           {
-            "id": "tws-1",
-            "title": "Technical specifications",
-            "icon": "icons/blueprint.svg",
-            "tooltip": {
-              "content": "Write basic technical specifications, e.g. HESA data requests"
-            },
-            "children": [
-              {
-                "id": "tws-2",
-                "title": "Complex technical specifications",
-                "icon": "icons/blueprint.svg",
-                "tooltip": {
-                  "content": "Write more complex technical specifications, e.g. specifications for new applications or integrations"
-                },
-                "children": [
-                  {
-                    "id": "tws-3",
-                    "title": "Advanced specifications",
-                    "icon": "icons/blueprint.svg",
-                    "tooltip": {
-                      "content": "Write more advanced technical specifications, e.g. technical architecture, state models, process models using standards such as UML."
-                    },
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "tw-2",
-            "title": "Proposals",
+            "id": "tw-3",
+            "title": "Internal user documentation",
             "icon": "icons/RoundIcons_FreeSet-40.svg",
             "tooltip": {
-              "content": "Write internal technical proposals, e.g. for data panel"
+              "content": "Write internal user documentation, e.g. for sharepoint, or handover to CS."
             },
             "children": [
               {
-                "id": "tw-3",
-                "title": "Internal user documentation",
-                "icon": "icons/RoundIcons_FreeSet-40.svg",
+                "id": "tws-1",
+                "title": "Technical specifications",
+                "icon": "icons/blueprint.svg",
                 "tooltip": {
-                  "content": "Write internal user documentation, e.g. for sharepoint, or handover to CS."
+                  "content": "Write basic technical specifications for both internal and external audiences, e.g. HESA data requests"
                 },
                 "children": [
                   {
-                    "id": "tw-4",
-                    "title": "End user documentation",
-                    "icon": "icons/RoundIcons_FreeSet-40.svg",
+                    "id": "tws-2",
+                    "title": "Complex technical specifications",
+                    "icon": "icons/blueprint.svg",
                     "tooltip": {
-                      "content": "Write external user documentation, e.g. for website and manuals"
+                      "content": "Write more complex technical specifications for both internal and external audiences, e.g. specifications for new applications or integrations"
                     },
-                    "children": []
+                    "children": [
+                      {
+                        "id": "tws-3",
+                        "title": "Advanced specifications",
+                        "icon": "icons/blueprint.svg",
+                        "tooltip": {
+                          "content": "Write more advanced technical specifications for both internal and external audiences, e.g. technical architecture, state models, process models using standards such as UML."
+                        },
+                        "children": []
+                      }
+                    ]
                   }
                 ]
+              },
+              {
+                "id": "tw-4",
+                "title": "End user documentation",
+                "icon": "icons/RoundIcons_FreeSet-40.svg",
+                "tooltip": {
+                  "content": "Write external user documentation, e.g. for website and manuals"
+                },
+                "children": []
               }
             ]
           }

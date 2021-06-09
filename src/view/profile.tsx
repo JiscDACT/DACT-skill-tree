@@ -15,6 +15,10 @@ const Title = styled.h2<Props> `
     color: ${props => props.data.completion === 100 ? props.data.color: 'white'};
 `
 
+const Description = styled.p`
+    font-size: 1rem;
+`
+
 export function Profile(props:any) {
     return (
             <div className={'profile'}>
@@ -30,7 +34,7 @@ export function Profile(props:any) {
                         }}
                     />
                 </div>
-                <p>{props.data.description}</p>
+                <Description>{props.data.description}</Description>
             </div>
         )
 }

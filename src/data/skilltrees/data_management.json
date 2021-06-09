@@ -43,6 +43,16 @@
                         },
                         "children": [
                         ]
+                      },
+                      {
+                        "id": "alt-14",
+                        "title": "Quality checks",
+                        "icon": "icons/practices.png",
+                        "tooltip": {
+                          "content": "Include built-in data quality checking in workflows."
+                        },
+                        "children": [
+                        ]
                       }
                     ]
                   },
