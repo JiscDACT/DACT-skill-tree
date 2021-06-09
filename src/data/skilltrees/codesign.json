@@ -1,0 +1,121 @@
+{
+  "tree": {
+    "name": "Co-design",
+    "tree": [
+      {
+        "id": "cd-1",
+        "title": "Participant",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Has participated in a co-design session as an observer."
+        },
+        "children": [
+          {
+            "id": "cd-2",
+            "title": "Active participant",
+            "icon": "icons/comms.png",
+            "tooltip": {
+              "content": "Has participated in a co-design session as an active participant."
+            },
+            "children": [
+              {
+                "id": "cd-4",
+                "title": "Session setup",
+                "icon": "icons/comms.png",
+                "tooltip": {
+                  "content": "Help set up a co-design session, e.g. answering posted questions and triaging feedback on Miro."
+                },
+                "children": []
+              },
+              {
+                "id": "cd-5",
+                "title": "Post-session triage",
+                "icon": "icons/query.png",
+                "tooltip": {
+                  "content": "Create the post-session MuSCOW priorities for the team."
+                },
+                "children": [
+                  {
+                    "id": "cd-6",
+                    "title": "Post-session analysis",
+                    "icon": "icons/query.png",
+                    "tooltip": {
+                      "content": "Analyse the session and develop requirements using domain and customer knowledge to interpret and fill in gaps."
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "cd-7",
+                "title": "Session lead/facilitator",
+                "icon": "icons/comms.png",
+                "tooltip": {
+                  "content": "Lead/facilitate a co-design session with users."
+                },
+                "children": [
+                  {
+                    "id": "cd-8",
+                    "title": "Session design",
+                    "icon": "icons/comms.png",
+                    "tooltip": {
+                      "content": "Design a co-design session and set up activities."
+                    },
+                    "children": [
+                      {
+                        "id": "cd-9",
+                        "title": "Process design",
+                        "icon": "icons/comms.png",
+                        "tooltip": {
+                          "content": "Design a novel co-design process based on domain and customer knowledge."
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cd-12",
+                "title": "Recordings",
+                "icon": "icons/comms.png",
+                "tooltip": {
+                  "content": "Create video recordings demonstrating prototypes"
+                },
+                "children": []
+              },
+              {
+                "id": "cd-13",
+                "title": "Live demo",
+                "icon": "icons/comms.png",
+                "tooltip": {
+                  "content": "Present a live demo of a prototype"
+                },
+                "children": []
+              },
+              {
+                "id": "cd-10",
+                "title": "Non-functional prototypes",
+                "icon": "icons/chart.svg",
+                "tooltip": {
+                  "content": "Create non-functioning prototypes as stimulus material"
+                },
+                "children": [
+                  {
+                    "id": "cd-11",
+                    "title": "Working prototypes",
+                    "icon": "icons/chart.svg",
+                    "tooltip": {
+                      "content": "Create working prototypes as stimulus material"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
