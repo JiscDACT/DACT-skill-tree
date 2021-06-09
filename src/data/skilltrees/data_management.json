@@ -23,7 +23,7 @@
                 "title": "Creating Workflows",
                 "icon": "icons/pipe.svg",
                 "tooltip": {
-                  "content": "Create workflows to load, clean ,merge and reshape data (e.g. CSVs using Alteryx or Python)"
+                  "content": "Create workflows to load, clean ,merge and reshape data files (e.g. CSVs using Alteryx or Python)"
                 },
                 "children": [
                   {
@@ -58,6 +58,16 @@
                   },
                   {
                     "id": "alt-6",
+                    "title": "Workflows with APIs",
+                    "icon": "icons/optimisation.png",
+                    "tooltip": {
+                      "content": "Create workflows that utilise APIs"
+                    },
+                    "children": [
+                    ]
+                  },
+                  {
+                    "id": "alt-7",
                     "title": "Workflow macros",
                     "icon": "icons/pipe.svg",
                     "tooltip": {
@@ -65,7 +75,7 @@
                     },
                     "children": [
                       {
-                        "id": "alt-7",
+                        "id": "alt-8",
                         "title": "Workflow components",
                         "icon": "icons/pipe.svg",
                         "tooltip": {
@@ -77,7 +87,7 @@
                     ]
                   },
                   {
-                    "id": "alt-8",
+                    "id": "alt-9",
                     "title": "Workflow tests",
                     "icon": "icons/pipe.svg",
                     "tooltip": {
@@ -87,7 +97,7 @@
                     ]
                   },
                   {
-                    "id": "alt-9",
+                    "id": "alt-10",
                     "title": "Flexible data pipelines",
                     "icon": "icons/pipe.svg",
                     "tooltip": {
@@ -95,7 +105,7 @@
                     },
                     "children": [
                       {
-                        "id": "alt-10",
+                        "id": "alt-11",
                         "title": "Advanced data pipelines",
                         "icon": "icons/pipe.svg",
                         "tooltip": {
@@ -105,7 +115,7 @@
                         ]
                       },
                       {
-                        "id": "alt-11",
+                        "id": "alt-12",
                         "title": "Alternative pipeline tools",
                         "icon": "icons/pipe.svg",
                         "tooltip": {

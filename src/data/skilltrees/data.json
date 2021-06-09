@@ -1,0 +1,92 @@
+{
+  "tree": {
+    "name": "Data",
+    "tree": [
+      {
+        "id": "data-1",
+        "title": "Data basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Understands the basic of data types - string, integers, floats etc."
+        },
+        "children": [
+          {
+            "id": "data-2",
+            "title": "Calculations",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Understands the use of calculated and dynamic fields."
+            },
+            "children": []
+          },
+          {
+            "id": "data-3",
+            "title": "Keys",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Understands the use of primary, foreign, composite and surrogate keys."
+            },
+            "children": []
+          },
+          {
+            "id": "data-4",
+            "title": "Metadata",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Understands and uses metadata to enhance the use of data."
+            },
+            "children": [
+              {
+                "id": "data-5",
+                "title": "Data dictionaries",
+                "icon": "icons/data.svg",
+                "tooltip": {
+                  "content": "Can use metadata to create data dictionaries."
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "data-6",
+            "title": "Privacy",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Understands special and protected characteristics."
+            },
+            "children": []
+          },
+          {
+            "id": "data-7",
+            "title": "Quality",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Understands basics of data quality."
+            },
+            "children": [
+              {
+                "id": "data-8",
+                "title": "Governance",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Understands principles of data governance."
+                },
+                "children": [
+                  {
+                    "id": "data-9",
+                    "title": "Strategy",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Can apply principles of governance, privacy and quality to the development of a data strategy."
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

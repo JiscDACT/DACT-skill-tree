@@ -11,28 +11,48 @@
         },
         "children": [
           {
+            "id": "vbp-2",
+            "title": "Suppression and rounding",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Apply suppression and rounding to data visualisations."
+            },
+            "children": []
+          },
+          {
+            "id": "vbp-4",
+            "title": "Visualisation performance",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Follows best practices in making visualisations perform better in terms of loading times and interaction responsiveness, for example using integers rather than strings, minimising datasets, and using an understanding of server platforms."
+            },
+            "children": [
+            ]
+          },
+          {
             "id": "vbp-1",
             "title": "Visualisation best practice",
             "icon": "icons/practices.png",
             "tooltip": {
-              "content": "Creates report using appropriate visualisations to convey the data story"
+              "content": "Creates reports using appropriate visualisations to convey the data story"
             },
             "children": [
-              {
-                "id": "vbp-2",
-                "title": "Suppression and rounding",
-                "icon": "icons/practices.png",
-                "tooltip": {
-                  "content": "Apply suppression and rounding to data visualisations."
-                },
-                "children": []
-              },
               {
                 "id": "vbp-3",
                 "title": "Accessibility",
                 "icon": "icons/practices.png",
                 "tooltip": {
                   "content": "Follows best practices in making visualisations accessible."
+                },
+                "children": [
+                ]
+              },
+              {
+                "id": "vbp-5",
+                "title": "Advanced Visualisation best practice",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Follows best practices for information design."
                 },
                 "children": [
                 ]

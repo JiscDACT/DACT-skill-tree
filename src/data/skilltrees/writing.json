@@ -47,43 +47,33 @@
         "title": "Basic technical writing",
         "icon": "icons/RoundIcons_FreeSet-35.svg",
         "tooltip": {
-          "content": "Write internal bug reports and issues."
+          "content": "Write internal documentation, e.g. code comments and specifications."
         },
         "children": [
           {
             "id": "tw-2",
-            "title": "Documentation",
+            "title": "Proposals",
             "icon": "icons/RoundIcons_FreeSet-40.svg",
             "tooltip": {
-              "content": "Write internal documentation, e.g. code comments and specifications"
+              "content": "Write internal technical proposals, e.g. for data panel"
             },
             "children": [
               {
                 "id": "tw-3",
-                "title": "Proposals",
+                "title": "Internal user documentation",
                 "icon": "icons/RoundIcons_FreeSet-40.svg",
                 "tooltip": {
-                  "content": "Write internal technical proposals, e.g. for data panel"
+                  "content": "Write internal user documentation, e.g. for sharepoint, or handover to CS."
                 },
                 "children": [
                   {
                     "id": "tw-4",
-                    "title": "Internal user documentation",
+                    "title": "End user documentation",
                     "icon": "icons/RoundIcons_FreeSet-40.svg",
                     "tooltip": {
-                      "content": "Write internal user documentation, e.g. for sharepoint, or handover to CS."
+                      "content": "Write external user documentation, e.g. for website and manuals"
                     },
-                    "children": [
-                      {
-                        "id": "tw-5",
-                        "title": "End user documentation",
-                        "icon": "icons/RoundIcons_FreeSet-40.svg",
-                        "tooltip": {
-                          "content": "Write external user documentation, e.g. for website and manuals"
-                        },
-                        "children": []
-                      }
-                    ]
+                    "children": []
                   }
                 ]
               }
