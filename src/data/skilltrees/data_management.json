@@ -34,6 +34,16 @@
                       "content": "Use comments, containers and documentation to ensure workflows can be understood, reused and modified by colleagues"
                     },
                     "children": [
+                      {
+                        "id": "alt-13",
+                        "title": "Optimisation and refactoring",
+                        "icon": "icons/practices.png",
+                        "tooltip": {
+                          "content": "Refactor workflows to improve modularity, reuse and performance. Convert workflows to use the most appropriate tools."
+                        },
+                        "children": [
+                        ]
+                      }
                     ]
                   },
                   {

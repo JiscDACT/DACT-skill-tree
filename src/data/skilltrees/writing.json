@@ -51,6 +51,35 @@
         },
         "children": [
           {
+            "id": "tws-1",
+            "title": "Technical specifications",
+            "icon": "icons/blueprint.svg",
+            "tooltip": {
+              "content": "Write basic technical specifications, e.g. HESA data requests"
+            },
+            "children": [
+              {
+                "id": "tws-2",
+                "title": "Complex technical specifications",
+                "icon": "icons/blueprint.svg",
+                "tooltip": {
+                  "content": "Write more complex technical specifications, e.g. specifications for new applications or integrations"
+                },
+                "children": [
+                  {
+                    "id": "tws-3",
+                    "title": "Advanced specifications",
+                    "icon": "icons/blueprint.svg",
+                    "tooltip": {
+                      "content": "Write more advanced technical specifications, e.g. technical architecture, state models, process models using standards such as UML."
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "id": "tw-2",
             "title": "Proposals",
             "icon": "icons/RoundIcons_FreeSet-40.svg",
