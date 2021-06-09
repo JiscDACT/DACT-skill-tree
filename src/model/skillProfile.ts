@@ -69,6 +69,7 @@ export function formatSkills(skills: any): any {
 
 export function updateProfiles(profiles: any, skills: any) {
     let newProfileList = []
+    if (!skills) {return profiles}
     for (let i in profiles) {
         let profile = profiles[i]
         let skillsTotal = profile.skills.length
