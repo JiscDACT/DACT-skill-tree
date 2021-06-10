@@ -77,7 +77,7 @@
                         "title": "Facilitate sprint review",
                         "icon": "icons/devops.svg",
                         "tooltip": {
-                          "content": "Facilitate spring review for a team"
+                          "content": "Facilitate sprint review for a team"
                         },
                         "children": []
                       },
@@ -86,7 +86,7 @@
                         "title": "Facilitate sprint planning",
                         "icon": "icons/devops.svg",
                         "tooltip": {
-                          "content": "Facilitate spring planning for a team"
+                          "content": "Facilitate sprint planning for a team"
                         },
                         "children": []
                       },
