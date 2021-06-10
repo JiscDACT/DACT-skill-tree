@@ -86,14 +86,16 @@ function getFlatChildList(skill: any, skills: any[], treeName: string){
 
 export function updateProfiles(profiles: any, skills: any, skillList: any) {
     let newProfileList = []
-    if (!skills) {return profiles}
+
+    if (!skills) {skills = []}
+
     for (let i in profiles) {
         let profile = profiles[i]
         profile.neededSkills = []
         let skillsTotal = profile.skills.length
         let skillsCompleted = 0
-        for (let skill in profile.skills) {
-            let skillName = profile.skills[skill];
+        for (let j in profile.skills) {
+            let skillName = profile.skills[j];
             let node = skills[skillName as keyof Skill];
             if (node) {
                 if (node.nodeState === 'selected') {
@@ -101,6 +103,8 @@ export function updateProfiles(profiles: any, skills: any, skillList: any) {
                 } else {
                     profile.neededSkills.push(getSkillNameFromId(skillName, skillList))
                 }
+            } else {
+                profile.neededSkills.push(getSkillNameFromId(skillName, skillList))
             }
         }
         let completion = Math.round((skillsCompleted / skillsTotal) * 100);
