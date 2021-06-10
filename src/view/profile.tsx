@@ -69,7 +69,7 @@ SimpleDialog.propTypes = {
             setOpen(true);
         };
 
-        const handleClose = (value:any) => {
+        const handleClose = () => {
             setOpen(false);
         };
 

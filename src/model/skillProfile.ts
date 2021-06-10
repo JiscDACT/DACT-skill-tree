@@ -3,7 +3,9 @@ import {requireAll} from "../util";
 
 let data = requireAll(require.context("../data/profiles/", false, /.json$/))
 const profiles = data.map(function (obj: any) {
-    return obj.profile;
+    let profile = obj.profile;
+    profile.neededSkills = [];
+    return profile;
 });
 
 export class SkillProfile {
@@ -52,12 +54,12 @@ export function formatSkills(skills: any): any {
     return output
 }
 
-function getSkillNameFromId(skillid:string, skillList: any): any{
+function getSkillNameFromId(skillId:string, skillList: any): any{
     let skill = skillList.find(function(item:any){
-        return item["id"] === skillid
+        return item["id"] === skillId
     })
     if(!skill){
-        console.log(skillid)
+        console.log(skillId)
         return null
     }
     return skill
@@ -69,8 +71,7 @@ export function flattenSkills(trees: any): any[]{
         let treeName = trees[i].name
         let tree = trees[i].tree
         for(let j in tree){
-            let skill = tree[j]
-            getFlatChildList(skill, skills, treeName)
+            getFlatChildList(tree[j], skills, treeName)
         }
     }
     return skills
