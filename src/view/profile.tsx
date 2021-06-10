@@ -40,7 +40,7 @@ function SimpleDialog(props: any) {
 
     return (
         <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
-            <DialogTitle id="simple-dialog-title">What other skills do I need?</DialogTitle>
+            <DialogTitle id="simple-dialog-title">What skills do I need?</DialogTitle>
             <List>
                 {props.skills.map((skill:any) => (
                     <ListItem button onClick={() => handleListItemClick(skill)} key={skill.id}>
@@ -88,7 +88,7 @@ SimpleDialog.propTypes = {
                     />
                 </div>
                 <Button variant="text" color="inherit" size={"small"} onClick={handleClickOpen}>
-                    What other skills do I need?
+                    What skills do I need?
                 </Button>
                 <SimpleDialog skills={props.data.neededSkills} open={open} onClose={handleClose}/>
                 <Description>{props.data.description}</Description>
