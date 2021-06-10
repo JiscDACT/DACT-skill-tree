@@ -12,34 +12,19 @@ export class SkillProfile {
     skills: String[] = [];
     completion?: Number = 0;
     portrait?: String;
-    color?: String = 'white'
+    color?: String = 'white';
+    neededSkills?: String[] = [];
 }
 
 export function getEmptyProfiles() {
     return profiles
 }
 
-export function getProfiles(): SkillProfile[] {
+export function getProfiles(skillList: any): SkillProfile[] {
     let profiles = getEmptyProfiles();
     let skills = getSkills();
-    profiles = updateProfiles(profiles, skills)
+    profiles = updateProfiles(profiles, skills, skillList)
     return profiles;
-
-    // let saved = localStorage.getItem("profiles");
-    // if (saved && saved !== "null") {
-    //     let savedProfiles:SkillProfile[] = JSON.parse(saved)
-    //     for (let i in savedProfiles){
-    //         let completion = savedProfiles[i].completion
-    //         let name = savedProfiles[i].name
-    //         for (let j in profiles){
-    //             if(profiles[j].name === name){
-    //                 profiles[j].completion = completion
-    //             }
-    //         }
-    //     }
-    //     return profiles;
-    // }
-    // return profiles
 }
 
 export function getSkills(): any {
@@ -67,11 +52,43 @@ export function formatSkills(skills: any): any {
     return output
 }
 
-export function updateProfiles(profiles: any, skills: any) {
+function getSkillNameFromId(skillid:string, skillList: any): any{
+    let skill = skillList.find(function(item:any){
+        return item["id"] === skillid
+    })
+    if(!skill){
+        console.log(skillid)
+        return null
+    }
+    return skill
+}
+
+export function flattenSkills(trees: any): any[]{
+    let skills: any[] = []
+    for(let i in trees){
+        let treeName = trees[i].name
+        let tree = trees[i].tree
+        for(let j in tree){
+            let skill = tree[j]
+            getFlatChildList(skill, skills, treeName)
+        }
+    }
+    return skills
+}
+
+function getFlatChildList(skill: any, skills: any[], treeName: string){
+    skills.push({"id":skill.id, "title": skill.title + " in " + treeName})
+    for(let i in skill.children){
+        getFlatChildList(skill.children[i], skills, treeName)
+    }
+}
+
+export function updateProfiles(profiles: any, skills: any, skillList: any) {
     let newProfileList = []
     if (!skills) {return profiles}
     for (let i in profiles) {
         let profile = profiles[i]
+        profile.neededSkills = []
         let skillsTotal = profile.skills.length
         let skillsCompleted = 0
         for (let skill in profile.skills) {
@@ -80,6 +97,8 @@ export function updateProfiles(profiles: any, skills: any) {
             if (node) {
                 if (node.nodeState === 'selected') {
                     skillsCompleted += 1;
+                } else {
+                    profile.neededSkills.push(getSkillNameFromId(skillName, skillList))
                 }
             }
         }

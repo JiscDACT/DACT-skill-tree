@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {getEmptyProfiles, getProfiles, getFormattedSkills, formatSkills} from './model/skillProfile'
+import {getEmptyProfiles, getProfiles, getFormattedSkills, formatSkills, flattenSkills} from './model/skillProfile'
 import {updateProfiles} from "./model/skillProfile";
 import {ProfileGroup} from "./view/profileGroup";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
@@ -14,12 +14,13 @@ function App() {
     const trees = data.map(function(obj:any) {
         return obj.tree;
     });
+    const skillList = flattenSkills(trees);
 
     const [userSkills, changeUserSkills] = useState(getFormattedSkills());
-    const [profiles, changeProfiles] = useState(getProfiles());
+    const [profiles, changeProfiles] = useState(getProfiles(skillList));
 
     function myHandleSave(storage: any, treeId: any, skills: any) {
-        changeProfiles(updateProfiles(profiles, skills))
+        changeProfiles(updateProfiles(profiles, skills, skillList))
         storage.setItem("profiles", JSON.stringify(profiles))
         changeUserSkills(formatSkills(skills))
         return storage.setItem("skills-" + treeId, JSON.stringify(skills));
@@ -29,7 +30,7 @@ function App() {
     // Debugging use - deletes the saved profiles
     //
     function resetProfiles(){
-        changeProfiles(updateProfiles(getEmptyProfiles(), []))
+        changeProfiles(updateProfiles(getEmptyProfiles(), [], skillList))
     }
     function clearAllData(){
         resetProfiles()
