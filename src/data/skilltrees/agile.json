@@ -117,6 +117,26 @@
                             "children": []
                           }
                         ]
+                      },
+                      {
+                        "id": "agile-10",
+                        "title": "Deputy product owner",
+                        "icon": "icons/devops.svg",
+                        "tooltip": {
+                          "content": "Acted as a deputy, managing backlog and making operational decisions"
+                        },
+                        "children": [
+                          {
+                            "id": "agile-11",
+                            "title": "Product owner",
+                            "icon": "icons/devops.svg",
+                            "tooltip": {
+                              "content": "Acted as Product Owner for a project"
+                            },
+                            "children": []
+                          },
+                         }
+                        ]
                       }
                     ]
                   }
