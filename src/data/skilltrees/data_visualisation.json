@@ -30,6 +30,26 @@
             ]
           },
           {
+            "id": "vbp-6",
+            "title": "Visualisation testing",
+            "icon": "icons/devops.svg",
+            "tooltip": {
+              "content": "Follows best practices in making sure visualisations provide accurate data."
+            },
+            "children": [
+              {
+                "id": "vbp-7",
+                "title": "Automated testing of visualisations",
+                "icon": "icons/devops.svg",
+                "tooltip": {
+                  "content": "Creates automated, repeatable tests for visualisations, e.g. using Wiisdom Ops or Selenium."
+                },
+                "children": [
+                ]
+              }
+            ]
+          },
+          {
             "id": "vbp-1",
             "title": "Visualisation best practice",
             "icon": "icons/practices.png",
