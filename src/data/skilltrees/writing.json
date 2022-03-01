@@ -1,7 +1,27 @@
 {
   "tree": {
-    "name": "Technical writing",
+    "name": "Writing and presenting",
     "tree": [
+      {
+        "id": "media-5",
+        "title": "Style guide",
+        "icon": "icons/practices.png",
+        "tooltip": {
+          "content": "Makes use of style guides to ensure materials are consistent with house style."
+        },
+        "children": [
+          {
+            "id": "media-6",
+            "title": "Proofing and editing",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Proofs and edits materials to ensure they are accurate are consistent with house style."
+            },
+            "children": [
+            ]
+          }
+        ]
+      },
       {
         "id": "twx-1",
         "title": "Basic report writing",
@@ -96,6 +116,86 @@
                 },
                 "children": []
               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "media-1",
+        "title": "Media preparation",
+        "icon": "icons/RoundIcons_FreeSet-07.svg",
+        "tooltip": {
+          "content": "Prepare basic media for use in reports and presentations, e.g. simple graphics and slides"
+        },
+        "children": [
+          {
+            "id": "media-2",
+            "title": "Figures and charts",
+            "icon": "icons/RoundIcons_FreeSet-07.svg",
+            "tooltip": {
+              "content": "Produce high quality charts for use in presentation materials"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "media-3",
+            "title": "Licensing and reuse",
+            "icon": "icons/RoundIcons_FreeSet-07.svg",
+            "tooltip": {
+              "content": "Source appropriate materials for reuse based on an understanding of licensing, e.g. Creative Commons"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "media-4",
+            "title": "Presentation materials",
+            "icon": "icons/RoundIcons_FreeSet-07.svg",
+            "tooltip": {
+              "content": "Produce high quality presentation materials"
+            },
+            "children": [
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pres-1",
+        "title": "Presentations",
+        "icon": "icons/comms.png",
+        "tooltip": {
+          "content": "Deliver presentations to an internal audience, either online or in person"
+        },
+        "children": [
+          {
+            "id": "pres-2",
+            "title": "External Presentations",
+            "icon": "icons/comms.png",
+            "tooltip": {
+              "content": "Deliver presentations to an external audience, either online or in person"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "pres-3",
+            "title": "Video recordings",
+            "icon": "icons/comms.png",
+            "tooltip": {
+              "content": "Create video recordings or webcasts to be viewed asynchronously, e.g. product demos"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "pres-4",
+            "title": "Training activities",
+            "icon": "icons/comms.png",
+            "tooltip": {
+              "content": "Deliver training using interactive activities, either online or in person."
+            },
+            "children": [
             ]
           }
         ]
