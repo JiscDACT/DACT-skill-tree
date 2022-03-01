@@ -91,7 +91,16 @@ function App() {
                     <TabPanel>
                         <button onClick={resetProfiles}>Reset profiles</button>
                         <button onClick={clearAllData}>Clear all stored data</button>
+                        <p>Current selected skills</p>
                         <p><textarea value={userSkills} readOnly={true}/></p>
+                        <p>All skills</p>
+                        <textarea value={
+                            skillList.map(function (skill: any, key = skill.id) {
+                                return (
+                                    skill.id + ', ' + skill.title +'\n'
+                                )
+                            }).join('')
+                        }/>
                     </TabPanel>
                 </Tabs>
             </article>
