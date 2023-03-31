@@ -1,0 +1,76 @@
+{
+  "tree": {
+    "name": "Cloud Computing AWS",
+    "tree": [
+      {
+        "id": "aws-1",
+        "title": "Awareness of AWS services",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Awareness of the major AWS services and advantages of cloud based solutions from traditional infrastructure"
+        },
+        "children": [
+          {
+            "id": "vbp-2",
+            "title": "Security Identity Practice and Management",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Understand identity and access management (IAM) and security best practices"
+            },
+            "children": []
+          },
+          {
+            "id": "vbp-3",
+            "title": "Database Technologies",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Familiarity with different database technologies such as SQL and NoSQL databases"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "vbp-4",
+            "title": "Monitoring",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Knowledge of monitoring and logging tools such as CloudWatch/CloudTrail"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "vbp-4",
+            "title": "Storage",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Understanding of different types of storage (including S3)"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "vbp-4",
+            "title": "Application Development",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Understanding web application development principles"
+            },
+            "children": [
+            ]
+          },
+          {
+            "id": "vbp-4",
+            "title": "Business Analysis",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Ability to identify business requirements and translate them into technical solutions on AWS"
+            },
+            "children": [
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
