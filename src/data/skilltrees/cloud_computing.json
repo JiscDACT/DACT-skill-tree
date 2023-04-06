@@ -11,7 +11,7 @@
         },
         "children": [
           {
-            "id": "vbp-2",
+            "id": "aws-2",
             "title": "Security Identity Practice and Management",
             "icon": "icons/practices.png",
             "tooltip": {
@@ -20,7 +20,7 @@
             "children": []
           },
           {
-            "id": "vbp-3",
+            "id": "aws-3",
             "title": "Database Technologies",
             "icon": "icons/practices.png",
             "tooltip": {
@@ -30,7 +30,7 @@
             ]
           },
           {
-            "id": "vbp-4",
+            "id": "aws-4",
             "title": "Monitoring",
             "icon": "icons/practices.png",
             "tooltip": {
@@ -40,7 +40,7 @@
             ]
           },
           {
-            "id": "vbp-4",
+            "id": "aws-5",
             "title": "Storage",
             "icon": "icons/practices.png",
             "tooltip": {
@@ -50,7 +50,7 @@
             ]
           },
           {
-            "id": "vbp-4",
+            "id": "aws-6",
             "title": "Application Development",
             "icon": "icons/practices.png",
             "tooltip": {
@@ -60,7 +60,7 @@
             ]
           },
           {
-            "id": "vbp-4",
+            "id": "aws-7",
             "title": "Business Analysis",
             "icon": "icons/practices.png",
             "tooltip": {

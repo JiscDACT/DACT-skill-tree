@@ -4,16 +4,16 @@
     "color": "darkturquoise",
     "description": "Navigator of the cloud. You can connect cloud components into a clear path.",
     "skills": [
-      "stats-predictive-1",
-      "stats-diagnostic-1",
-      "stats-diagnostic-2",
-      "stats-metrics",
-      "stats-scaling",
-      "stats-desc-1",
-      "stats-desc-2",
-      "stats-desc-3",
-      "stats-desc-4",
-      "stats-desc-5"
+      "aws-1",
+      "aws-2",
+      "aws-3",
+      "aws-4",
+      "aws-5",
+      "aws-6",
+      "aws-7",
+      "web-dev-6",
+      "web-3",
+      "prp-4"
     ],
     "portrait": "portraits/cloudnavigator.png",
     "completion": 0
