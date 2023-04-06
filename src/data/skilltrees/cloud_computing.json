@@ -5,7 +5,7 @@
       {
         "id": "aws-1",
         "title": "Awareness of AWS services",
-        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "icon": "icons/cloud.svg",
         "tooltip": {
           "content": "Awareness of the major AWS services and advantages of cloud based solutions from traditional infrastructure"
         },
@@ -13,7 +13,7 @@
           {
             "id": "aws-2",
             "title": "Security Identity Practice and Management",
-            "icon": "icons/practices.png",
+            "icon": "icons/query.png",
             "tooltip": {
               "content": "Understand identity and access management (IAM) and security best practices"
             },
@@ -22,7 +22,7 @@
           {
             "id": "aws-3",
             "title": "Database Technologies",
-            "icon": "icons/practices.png",
+            "icon": "icons/database.png",
             "tooltip": {
               "content": "Familiarity with different database technologies such as SQL and NoSQL databases"
             },
@@ -32,7 +32,7 @@
           {
             "id": "aws-4",
             "title": "Monitoring",
-            "icon": "icons/practices.png",
+            "icon": "icons/chart.svg",
             "tooltip": {
               "content": "Knowledge of monitoring and logging tools such as CloudWatch/CloudTrail"
             },
@@ -42,7 +42,7 @@
           {
             "id": "aws-5",
             "title": "Storage",
-            "icon": "icons/practices.png",
+            "icon": "icons/database.png",
             "tooltip": {
               "content": "Understanding of different types of storage (including S3)"
             },
@@ -52,7 +52,7 @@
           {
             "id": "aws-6",
             "title": "Application Development",
-            "icon": "icons/practices.png",
+            "icon": "icons/app.png",
             "tooltip": {
               "content": "Understanding web application development principles"
             },
