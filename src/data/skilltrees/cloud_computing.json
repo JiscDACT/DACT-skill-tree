@@ -57,6 +57,26 @@
               "content": "Understanding web application development principles"
             },
             "children": [
+              {
+                "id": "aws-6-1",
+                "title": "Lambda",
+                "icon": "icons/optimisation.png",
+                "tooltip": {
+                  "content": "Understand the 3 components of lambda (function, configuration, trigger) and how to integrate into a web app"
+                },
+                "children": [
+                ]
+              },
+              {
+                "id": "aws-6-2",
+                "title": "Web-based visualisations",
+                "icon": "icons/distributed.png",
+                "tooltip": {
+                  "content": "Able to connect up several components (frontend, backend, API, databases) to create a fully functioning web app. See here for a tutorial: https://aws.amazon.com/getting-started/hands-on/build-web-app-s3-lambda-api-gateway-dynamodb/ "
+                },
+                "children": [
+                ]
+              }
             ]
           },
           {
