@@ -1,5 +1,8 @@
 {"profile": {
 "name": "Python tamer",
+  "category": "Other",
+  "squad": "Any",
+  "level": "Any",
 "color": "Turquoise",
 "description": "Ruler of all things Pythonic! Charmer of Py! You can write a script to do just about anything.",
 "skills": [

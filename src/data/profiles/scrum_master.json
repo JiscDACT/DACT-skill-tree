@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Cat herder",
+    "category": "Other",
+    "squad": "Any",
+    "level": "Any",
     "color": "Purple",
     "description": "Bringer of order. Tabler of the agenda. You certainly know your tasks from your Epics. Let the scrum commence!",
     "skills": [

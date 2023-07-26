@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Scribe",
+    "category": "Other",
+    "squad": "Any",
+    "level": "Any",
     "color": "Gold",
     "description": "Articulator of all written things! Documentor of all that is important! You are your team's only hope when the question arises 'how does that work?'",
     "skills": [

@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Jack of all trades",
+    "category": "Other",
+    "squad": "Any",
+    "level": "Any",
     "color": "HotPink",
     "description": "Because specialisation is for ants.",
     "skills": [

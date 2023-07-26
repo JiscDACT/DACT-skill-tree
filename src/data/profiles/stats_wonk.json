@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Stats wonk",
+    "category": "Other",
+    "squad": "Any",
+    "level": "Any",
     "color": "MediumOrchid",
     "description": "The numbers do not lie! You are the bringer of meaning to the chaos of mere data.",
     "skills": [

@@ -1,5 +1,8 @@
 {"profile": {
 "name": "Engager",
+  "category": "Other",
+  "squad": "Any",
+  "level": "Any",
 "color": "Turquoise",
 "description": "Engager of the User! Eliciter of the Requirement! You can draw out specifications from the most diverse of parties.",
 "skills": [

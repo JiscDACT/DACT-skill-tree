@@ -14,11 +14,11 @@ export function ProfileGroup(props:any){
 
     const filteredProfiles = () => {
         return props.profiles.filter((profile: { category: string; squad:string; level:string }) =>
-            (category === 'Any' || (profile.category && profile.category === category))
+            (category === 'Any' || profile.category === 'Any' || (profile.category && profile.category === category))
             &&
-            (squad === 'Any' || (profile.squad && profile.squad === squad))
+            (squad === 'Any' || profile.squad === 'Any' || (profile.squad && profile.squad === squad))
             &&
-            (level === 'Any' || (profile.level && profile.level === level))
+            (level === 'Any' || profile.level === 'Any' || (profile.level && profile.level === level))
         );
     }
 
