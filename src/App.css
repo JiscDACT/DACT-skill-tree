@@ -100,10 +100,13 @@ code {
 }
 
 .filter-group {
-  width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
   flex-direction: row;
+}
+
+.filter {
+  margin: 20px
 }
 
 .profile-group {

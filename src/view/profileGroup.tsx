@@ -25,7 +25,7 @@ export function ProfileGroup(props:any){
     return (
             <div>
                 <div className={'filter-group'}>
-                    <p>Profile type <select onChange={(e) => setCategory(e.target.value)}>
+                    <p className={'filter'}>Profile type <select onChange={(e) => setCategory(e.target.value)}>
                         {
                             categories.map((cat) => {
                                 return <option key={cat}>{cat}</option>
@@ -34,7 +34,7 @@ export function ProfileGroup(props:any){
                     </select>
                     </p>
 
-                    <p>Squad <select onChange={(e) => setSquad(e.target.value)}>
+                    <p className={'filter'}>Squad <select onChange={(e) => setSquad(e.target.value)}>
                             {
                                 squads.map((cat) => {
                                     return <option key={cat}>{cat}</option>
@@ -43,7 +43,7 @@ export function ProfileGroup(props:any){
                         </select>
                     </p>
 
-                    <p>Level <select onChange={(e) => setLevel(e.target.value)}>
+                    <p className={'filter'}>Level <select onChange={(e) => setLevel(e.target.value)}>
                         {
                             levels.map((cat) => {
                                 return <option key={cat}>{cat}</option>
