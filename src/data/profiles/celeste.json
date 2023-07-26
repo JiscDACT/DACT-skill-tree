@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Celeste",
+    "category": "Epic",
+    "squad": "Cheetah",
+    "level": "Any",
     "color": "HotPink",
     "description": "Everything you need to maintain and extend Celeste, the automation tool",
     "skills": [

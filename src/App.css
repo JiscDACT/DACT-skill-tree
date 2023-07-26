@@ -99,6 +99,13 @@ code {
   monospace;
 }
 
+.filter-group {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
 .profile-group {
   max-width: fit-content;
   justify-content: center;

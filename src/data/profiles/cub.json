@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Cub",
+    "category": "Squad",
+    "squad": "Cheetah",
+    "level": "Beginner",
     "color": "MediumOrchid",
     "description": "Begin your journey to the wild side",
     "skills": [

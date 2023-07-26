@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Cheetahhh!",
+    "category": "Squad",
+    "squad": "Cheetah",
+    "level": "Any",
     "color": "HotPink",
     "description": "Embrace the wild side",
     "skills": [

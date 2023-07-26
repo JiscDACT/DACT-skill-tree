@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Cloud Navigator",
+    "category": "Profile",
+    "squad": "Any",
+    "level": "Any",
     "color": "darkturquoise",
     "description": "Navigator of the cloud. You can connect cloud components into a clear path.",
     "skills": [

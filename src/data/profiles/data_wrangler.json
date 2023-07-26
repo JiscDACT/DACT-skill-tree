@@ -1,6 +1,9 @@
 {
   "profile": {
     "name": "Data wrangler",
+    "category": "Other",
+    "squad": "Any",
+    "level": "Any",
     "color": "DeepSkyBlue",
     "description": "Shaper of tables! Cleanser of unclean rows! You can bend almost any data to your will.",
     "skills": [
