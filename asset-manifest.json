@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DACT-skill-tree/static/css/main.d88d1741.chunk.css",
-    "main.js": "/DACT-skill-tree/static/js/main.3bc56c50.chunk.js",
-    "main.js.map": "/DACT-skill-tree/static/js/main.3bc56c50.chunk.js.map",
+    "main.js": "/DACT-skill-tree/static/js/main.2df9f2dd.chunk.js",
+    "main.js.map": "/DACT-skill-tree/static/js/main.2df9f2dd.chunk.js.map",
     "runtime-main.js": "/DACT-skill-tree/static/js/runtime-main.dec79496.js",
     "runtime-main.js.map": "/DACT-skill-tree/static/js/runtime-main.dec79496.js.map",
     "static/css/2.1a1a8e53.chunk.css": "/DACT-skill-tree/static/css/2.1a1a8e53.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.1a1a8e53.chunk.css",
     "static/js/2.3cdddeeb.chunk.js",
     "static/css/main.d88d1741.chunk.css",
-    "static/js/main.3bc56c50.chunk.js"
+    "static/js/main.2df9f2dd.chunk.js"
   ]
 }
