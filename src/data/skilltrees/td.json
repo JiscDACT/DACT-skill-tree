@@ -1,1 +1,113 @@
 
+{
+  "tree": {
+    "name": "Tailored Datasets",
+    "tree": [
+      {
+        "id": "td-1",
+        "title": "Automation basics",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Use of automation tool to fully extract data enquiries."
+        },
+        "children": [
+          {
+            "id": "td-2",
+            "title": "SQL beginner",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Able to tweak scripts from the automation tool and add in bespoke fields."
+            },
+            "children": []
+          },
+          {
+            "id": "td-3",
+            "title": "Different formats",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Extracting unusual format e.g. PowerBI, Tableau, DDS and spreadsheets."
+            },
+            "children": []
+          },
+          {
+            "id": "td-4",
+            "title": "SQL +",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Able to write SQL scripts from scratch."
+            },
+            "children": [
+              {
+                "id": "td-5",
+                "title": "Derived table",
+                "icon": "icons/data.svg",
+                "tooltip": {
+                  "content": "Able to pick up and run the derived table script and amend as needed."
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "td-6",
+            "title": "Provider preview",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Able to put data enquiries on the provider preview system and answer simple/modest questions on the data enquiry."
+            },
+            "children": []
+          },
+          {
+            "id": "td-7",
+            "title": "Checking 1",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Can check pivot table and spreadsheet data enquiries."
+            },
+            "children": [
+              {
+                "id": "td-8",
+                "title": "Checking 2",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Can check all formats of data enquiries."
+                },
+                "children": [
+                  {
+                    "id": "td-9",
+                    "title": "SQL +",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Can tackle complicated SQL (e.g. tracking and linking data enquiries) with the support of Master colleagues."
+                    },
+                    "children": [
+                  {
+                    "id": "td-10",
+                    "title": "Checking 3",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Fully able to check data enquiries of all levels of complexity e.g. PowerBI, Tableau."
+                    },
+                    "children": [
+                  {
+                    "id": "td-11",
+                    "title": "Checking 4",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Checking tracking and linking enquiries."
+                    },
+                    "children": []
+                  }
+                ]
+                  }
+                ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
