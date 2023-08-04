@@ -5,24 +5,24 @@
     "tree": [
       {
         "id": "tds-1",
-        "title": "Questions",
+        "title": "Questioning",
         "icon": "icons/RoundIcons_FreeSet-35.svg",
         "tooltip": {
-          "content": "Being able to ask questions and learn from colleagues - knowing when to ask for help."
+          "content": "Being able to ask questions and learn from colleagues – knowing when to ask for help."
         },
         "children": [
           {
             "id": "tds-2",
-            "title": "Recognise complexity of data enquiries",
+            "title": "Understanding the complexity of data enquiries",
             "icon": "icons/data.svg",
             "tooltip": {
-              "content": "Able to pick enquiries from the whiteboard which are level appropriate (with guidance)."
+              "content": "Able to pick enquiries from the whiteboard with guidance on which are level appropriate."
             },
             "children": []
           },
           {
             "id": "tds-3",
-            "title": "Details",
+            "title": "Attention to detail",
             "icon": "icons/data.svg",
             "tooltip": {
               "content": "Good attention to detail."
@@ -31,18 +31,18 @@
           },
           {
             "id": "tds-4",
-            "title": "Join the team",
+            "title": "TD meetings",
             "icon": "icons/data.svg",
             "tooltip": {
-              "content": "Attend the TD catch-up meetings and get to know our consultant colleagues."
+              "content": "Attending the TD catch-up meetings and getting to know consultant colleagues."
             },
             "children": [
               {
                 "id": "tds-5",
-                "title": "Understanding the work",
+                "title": "Understand QA needs",
                 "icon": "icons/data.svg",
                 "tooltip": {
-                  "content": "Knowledge of checking outlines - understand what the checker is looking for when they QA the work."
+                  "content": "Knowledge of checking outlines - understanding what the QA is looking for in the work."
                 },
                 "children": []
               }
@@ -59,7 +59,7 @@
           },
           {
             "id": "tds-7",
-            "title": "Salesforce feedback",
+            "title": "Consultant feedback",
             "icon": "icons/practices.png",
             "tooltip": {
               "content": "Able to report back (through salesforce/teams) to the consultant team if there is feedback/questions/issues with a data contract."
@@ -67,15 +67,15 @@
             "children": [
               {
                 "id": "tds-8",
-                "title": "Communication with colleagues at HESA",
+                "title": "Communications with DCS colleagues",
                 "icon": "icons/practices.png",
                 "tooltip": {
-                  "content": "Good comms with colleagues at HESA – able to check in with them to ask if the data is correct/how to rework a script etc."
+                  "content": "Good comms with colleagues at HESA – able to check in with them to ask if the data is correct/how to rework a script etc.."
                 },
                 "children": [
                   {
                     "id": "tds-9",
-                    "title": "More HESA data knowledge",
+                    "title": "HESA data intermediate",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "More detailed knowledge of the HESA data and the published open data – you know where to look for trying to match data, and you are able to start talking to colleagues about how to use/derive/group fields."
@@ -83,7 +83,7 @@
                     "children": [
                   {
                     "id": "tds-10",
-                    "title": "Time management/prioritisation",
+                    "title": "Own time management",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Time management/autonomy – comfortable managing own workload and identifying tasks in priority order."
@@ -91,7 +91,7 @@
                     "children": [
                   {
                     "id": "tds-11",
-                    "title": "Tailored datasets processes",
+                    "title": "Process documentation",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Able to create clear process documentation."
@@ -99,15 +99,15 @@
                     "children": [
                   {
                     "id": "tds-12",
-                    "title": "Knowledge sharing",
+                    "title": "Giving simple advice",
                     "icon": "icons/practices.png",
                     "tooltip": {
-                      "content": "Able to provide basic advice to colleagues in team/in the consultant team (both in SQL and in the HESA data)"
+                      "content": "Able to provide basic advice to colleagues in team/in the consultant team (both in SQL and in the HESA data)."
                     },
                     "children": [
                   {
                     "id": "tds-13",
-                    "title": "Detailed knowledge sharing",
+                    "title": "Giving complicated advice to colleagues",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Able to provide complicated advice to colleagues in team/in the consultant team (both in SQL and in the HESA data)."
@@ -115,10 +115,10 @@
                     "children": [
                   {
                     "id": "tds-14",
-                    "title": "Provider preview (detailed knowledge)",
+                    "title": "Giving complicated advice for providefr preview",
                     "icon": "icons/practices.png",
                     "tooltip": {
-                      "content": "Able to answer complicated provider questions in response to previews. "
+                      "content": "Able to answer complicated provider questions in response to previews."
                     },
                     "children": [
                   {
@@ -131,15 +131,15 @@
                     "children": [
                   {
                     "id": "tds-16",
-                    "title": "Decisive",
+                    "title": "Decision making",
                     "icon": "icons/practices.png",
                     "tooltip": {
-                      "content": "Able and confident to make day-to-day decisions."
+                      "content": "Decision making."
                     },
                     "children": [
                   {
                     "id": "tds-17",
-                    "title": "Data expert",
+                    "title": "Sought after for help with enquiries/data",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Colleagues within DACT and consultants come to you for help with enquiries (Brand new specs/investigate error)."
@@ -147,7 +147,7 @@
                     "children": [
                   {
                     "id": "tds-18",
-                    "title": "Decision maker",
+                    "title": "Sought after for advice on decision making and problem solving",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Colleagues seek advice when they need it with decision making/problem solving."
@@ -155,12 +155,14 @@
                     "children": [
                   {
                     "id": "tds-19",
-                    "title": "Prioritiser",
+                    "title": "Team prioritisation",
                     "icon": "icons/practices.png",
                     "tooltip": {
                       "content": "Prioritization of own work and the team's jira board e.g. following the boards priority."
                     },
                     "children": []
+                  }]
+                  }]
                   }
                 ]
                   }
@@ -184,9 +186,6 @@
   }
     ]
   }
-    ]
-  }
-   }
     ]
   }
    }
