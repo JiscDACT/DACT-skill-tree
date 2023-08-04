@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "name": "Tailored Datasets",
+    "category": "Epic",
+    "squad": "Beta Blockers",
+    "level": "Intermediate",
+    "color": "HotPink",
+    "description": "Everything TD",
+    "skills": [
+      "td-1", "td-2", "td-3", "td-12", "td-13", "td-4", "td-5", "td-6", "td-7", "td-8", "td-9", "td-14", "td-15"
+
+    ],
+    "portrait": "portraits/Tailoreddatasets.jpg",
+    "completion": 0
+  }
+}
