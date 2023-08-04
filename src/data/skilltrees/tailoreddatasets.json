@@ -96,6 +96,54 @@
                     "tooltip": {
                       "content": "Checking tracking and linking enquiries."
                     },
+                    "children": [
+                  {
+                    "id": "td-12",
+                    "title": "Datatypes",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Understanding datatypes and how they affect the scripts (e.g. char vs int)."
+                    },
+                    "children": [
+                  {
+                    "id": "td-13",
+                    "title": "SQL debugging",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Be able to Debug SQL scripts when an error appears, identify the problem and correct."
+                    },
+                    "children": [
+                  {
+                    "id": "td-14",
+                    "title": "Automation maintenance",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Helping maintain/update the automation tool."
+                    },
+                    "children": [
+                  {
+                    "id": "td-15",
+                    "title": "SQL script confidence",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Confident with SQL and writing scripts efficiently."
+                    },
+                    "children": [
+                  {
+                    "id": "td-16",
+                    "title": "Additional software",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able to use other software to facilitate efficiency gain in TDS e.g. Python/Alteryx."
+                    },
+                    "children": [
+                  {
+                    "id": "td-17",
+                    "title": "SQL expert",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Expert with SQL e.g. indexes."
+                    },
                     "children": []
                   }
                 ]
