@@ -1,1 +1,192 @@
 
+{
+  "tree": {
+    "name": "Tailored Datasets soft skills",
+    "tree": [
+      {
+        "id": "tds-1",
+        "title": "Questions",
+        "icon": "icons/RoundIcons_FreeSet-35.svg",
+        "tooltip": {
+          "content": "Being able to ask questions and learn from colleagues - knowing when to ask for help."
+        },
+        "children": [
+          {
+            "id": "tds-2",
+            "title": "Recognise complexity of data enquiries",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Able to pick enquiries from the whiteboard which are level appropriate (with guidance)."
+            },
+            "children": []
+          },
+          {
+            "id": "tds-3",
+            "title": "Details",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Good attention to detail."
+            },
+            "children": []
+          },
+          {
+            "id": "tds-4",
+            "title": "Join the team",
+            "icon": "icons/data.svg",
+            "tooltip": {
+              "content": "Attend the TD catch-up meetings and get to know our consultant colleagues."
+            },
+            "children": [
+              {
+                "id": "tds-5",
+                "title": "Understanding the work",
+                "icon": "icons/data.svg",
+                "tooltip": {
+                  "content": "Knowledge of checking outlines - understand what the checker is looking for when they QA the work."
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "tds-6",
+            "title": "HESA data",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Knowledge of the HESA data – where to find information about fields/where to find out what the fields should look like and what is available."
+            },
+            "children": []
+          },
+          {
+            "id": "tds-7",
+            "title": "Salesforce feedback",
+            "icon": "icons/practices.png",
+            "tooltip": {
+              "content": "Able to report back (through salesforce/teams) to the consultant team if there is feedback/questions/issues with a data contract."
+            },
+            "children": [
+              {
+                "id": "tds-8",
+                "title": "Communication with colleagues at HESA",
+                "icon": "icons/practices.png",
+                "tooltip": {
+                  "content": "Good comms with colleagues at HESA – able to check in with them to ask if the data is correct/how to rework a script etc."
+                },
+                "children": [
+                  {
+                    "id": "tds-9",
+                    "title": "More HESA data knowledge",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "More detailed knowledge of the HESA data and the published open data – you know where to look for trying to match data, and you are able to start talking to colleagues about how to use/derive/group fields."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-10",
+                    "title": "Time management/prioritisation",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Time management/autonomy – comfortable managing own workload and identifying tasks in priority order."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-11",
+                    "title": "Tailored datasets processes",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able to create clear process documentation."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-12",
+                    "title": "Knowledge sharing",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able to provide basic advice to colleagues in team/in the consultant team (both in SQL and in the HESA data)"
+                    },
+                    "children": [
+                  {
+                    "id": "tds-13",
+                    "title": "Detailed knowledge sharing",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able to provide complicated advice to colleagues in team/in the consultant team (both in SQL and in the HESA data)."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-14",
+                    "title": "Provider preview (detailed knowledge)",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able to answer complicated provider questions in response to previews. "
+                    },
+                    "children": [
+                  {
+                    "id": "tds-15",
+                    "title": "Problem solving",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Problem solving abilities."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-16",
+                    "title": "Decisive",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Able and confident to make day-to-day decisions."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-17",
+                    "title": "Data expert",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Colleagues within DACT and consultants come to you for help with enquiries (Brand new specs/investigate error)."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-18",
+                    "title": "Decision maker",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Colleagues seek advice when they need it with decision making/problem solving."
+                    },
+                    "children": [
+                  {
+                    "id": "tds-19",
+                    "title": "Prioritiser",
+                    "icon": "icons/practices.png",
+                    "tooltip": {
+                      "content": "Prioritization of own work and the team's jira board e.g. following the boards priority."
+                    },
+                    "children": []
+                  }
+                ]
+                  }
+                ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+    ]
+  }
+    ]
+  }
+    ]
+  }
+    ]
+  }
+    ]
+  }
+    ]
+  }
+   }
+    ]
+  }
+   }
