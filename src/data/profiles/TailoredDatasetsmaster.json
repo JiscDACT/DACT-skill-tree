@@ -1,11 +1,11 @@
 {
   "profile": {
-    "name": "Tailored Datasets",
+    "name": "Tailored Datasets Master",
     "category": "Epic",
     "squad": "Beta Blockers",
     "level": "Master",
-    "color": "HotPink",
-    "description": "Everything TD",
+    "color": "Purple",
+    "description": "Everything you need to get to Master in TD",
     "skills": [
       "td-1", "td-2", "td-3", "td-12", "td-13", "td-4", "td-5", "td-6", "td-7", "td-8", "td-9", "td-14", "td-15", "td-10", "td-11", "td-16", "td-17"
 
