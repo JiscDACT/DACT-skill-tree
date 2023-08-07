@@ -1,11 +1,11 @@
 {
   "profile": {
-    "name": "Tailored Datasets",
+    "name": "Tailored Datasets Beginner",
     "category": "Epic",
     "squad": "Beta Blockers",
     "level": "Beginner",
-    "color": "HotPink",
-    "description": "Everything TD",
+    "color": "Purple",
+    "description": "Everything you need to get to Beginner+ in TD",
     "skills": [
       "td-1", "td-2", "td-3", "td-12", "td-13"
 
