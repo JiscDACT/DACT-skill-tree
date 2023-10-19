@@ -62,36 +62,36 @@ SimpleDialog.propTypes = {
     skills: PropTypes.any.isRequired
 };
 
-    export function Profile(props: any) {
-        const [open, setOpen] = React.useState(false);
+export function Profile(props: any) {
+    const [open, setOpen] = React.useState(false);
 
-        const handleClickOpen = () => {
-            setOpen(true);
-        };
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
 
-        const handleClose = () => {
-            setOpen(false);
-        };
+    const handleClose = () => {
+        setOpen(false);
+    };
 
-        return (
-            <div className={'profile'}>
-                <Title data={props.data} className={'profile-name'}>{props.data.name}</Title>
-                <Portrait data={props.data} className={'profile-portrait'} src={props.data.portrait}/>
-                <div className={'completion'}>
-                    <CircularProgressbar
-                        value={props.data.completion}
-                        text={`${props.data.completion}%`}
-                        styles={{
-                            path: {stroke: `${props.data.color}`,},
-                            text: {fill: `${props.data.color}`,}
-                        }}
-                    />
-                </div>
-                <Button variant="text" color="inherit" size={"small"} onClick={handleClickOpen}>
-                    What skills do I need?
-                </Button>
-                <SimpleDialog skills={props.data.neededSkills} open={open} onClose={handleClose}/>
-                <Description>{props.data.description}</Description>
+    return (
+        <div className={'profile'}>
+            <Title data={props.data} className={'profile-name'}>{props.data.name}</Title>
+            <Portrait data={props.data} className={'profile-portrait'} src={`${process.env.PUBLIC_URL}/${props.data.portrait}`}/>
+            <div className={'completion'}>
+                <CircularProgressbar
+                    value={props.data.completion}
+                    text={`${props.data.completion}%`}
+                    styles={{
+                        path: {stroke: `${props.data.color}`,},
+                        text: {fill: `${props.data.color}`,}
+                    }}
+                />
             </div>
-        )
-    }
+            <Button variant="text" color="inherit" size={"small"} onClick={handleClickOpen}>
+                What skills do I need?
+            </Button>
+            <SimpleDialog skills={props.data.neededSkills} open={open} onClose={handleClose}/>
+            <Description>{props.data.description}</Description>
+        </div>
+    )
+}
