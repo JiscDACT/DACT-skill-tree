@@ -1,0 +1,150 @@
+{
+  "tree": {
+    "name": "TDSA Starter",
+    "tree": [
+      {
+        "id": "tdsa-s-1",
+        "title": "App use",
+        "icon": "icons/app.svg",
+        "tooltip": {
+          "content": "Use the development version of the app to produce an order"
+        },
+        "links": [
+          {
+            "url": "https://dev.d10hutskiporm4.amplifyapp.com/",
+            "text": "Click here to use a development version of the app"
+          },
+          {
+            "url": "",
+            "text": "Read the documentation"
+          }
+        ],
+        "children": [
+          {
+            "id": "tdsa-s-2",
+            "title": "TDSA Documentation",
+            "icon": "icons/doc.svg",
+            "tooltip": {
+              "content": "Read through the Confluence pages 1.0 TDSA Planning and 2.0 TDSA Data to gain a better understanding of the TDSA Architecture"
+            },
+            "children": [
+              {
+                "id": "tdsa-s-3",
+                "title": "Setup Metadata Repo",
+                "icon": "icons/repo.svg",
+                "tooltip": {
+                  "content": "Setup local version of the Metadata GitHub Repository"
+                },
+                "children": [
+                  {
+                    "id": "tdsa-s-4",
+                    "title": "Setup PyCharm",
+                    "icon": "icons/pycharm.svg",
+                    "tooltip": {
+                      "content": "Able to use PyCharm to create venv, checkout a project from version control"
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "tdsa-s-5",
+                    "title": "Run Configurations",
+                    "icon": "icons/config.svg",
+                    "tooltip": {
+                      "content": "Able to setup run configurations in PyCharm"
+                    },
+                    "children": [
+                      {
+                        "id": "tdsa-s-6",
+                        "title": "Run build",
+                        "icon": "icons/build.svg",
+                        "tooltip": {
+                          "content": "Can run build sql"
+                        },
+                        "children": []
+                      },
+                      {
+                        "id": "tdsa-s-7",
+                        "title": "Run metadata",
+                        "icon": "icons/metadata.svg",
+                        "tooltip": {
+                          "content": "Can run build metadata"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tdsa-s-8",
+                    "title": "JSON",
+                    "icon": "icons/json.svg",
+                    "tooltip": {
+                      "content": "Understand how JSON is used to store data"
+                    },
+                    "children": [
+                      {
+                        "id": "tdsa-s-9",
+                        "title": "Alter JSON",
+                        "icon": "icons/alter.svg",
+                        "tooltip": {
+                          "content": "Can amend existing jsons with new information"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tdsa-s-10",
+                    "title": "Pytests",
+                    "icon": "icons/test.svg",
+                    "tooltip": {
+                      "content": "Able to run Pytests and understand why we need unit tests in a project"
+                    },
+                    "children": [
+                      {
+                        "id": "tdsa-s-11",
+                        "title": "Pytest addition",
+                        "icon": "icons/add-test.svg",
+                        "tooltip": {
+                          "content": "Able to write an additional Pytest using the structure already available"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "tdsa-s-12",
+                "title": "Repo understanding",
+                "icon": "icons/repo-understanding.svg",
+                "tooltip": {
+                  "content": "Understand the purpose of the repository"
+                },
+                "children": [
+                  {
+                    "id": "tdsa-s-13",
+                    "title": "Field update",
+                    "icon": "icons/update-field.svg",
+                    "tooltip": {
+                      "content": "Can update a field in the TDSA data"
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "tdsa-s-14",
+                    "title": "Field addition",
+                    "icon": "icons/add-field.svg",
+                    "tooltip": {
+                      "content": "Can add a whole new field to the TDSA data"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
