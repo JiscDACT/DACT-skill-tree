@@ -164,6 +164,7 @@ textarea {
   top: 0;
   border-left: 1px solid #444; /* Slight border to differentiate from main content */
   box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.2); /* Shadow to give a lifted appearance */
+  text-align: left;  /*left-aligned */
 }
 
 .skill-sidebar h2 {
@@ -186,8 +187,10 @@ textarea {
 }
 
 .skill-sidebar h4 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 5px;
+  font-weight: normal;  /* Ensure content is not bold */
+
 }
 
 .skill-sidebar a {
@@ -201,14 +204,17 @@ textarea {
   text-decoration: underline;
 }
 
-.skill-sidebar button {
-  background-color: #1E90FF;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s;
+.skill-sidebar a {
+  text-decoration: none;
+  color: #1E90FF; /* Link color */
+  font-size: 16px;
+  display: block;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+  text-align: left;  /* left-aligned */
 }
 
 .skill-sidebar button:hover {
