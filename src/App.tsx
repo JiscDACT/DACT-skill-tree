@@ -7,8 +7,13 @@ import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import {TreeWrapper} from "./view/treeWrapper";
 import {requireAll} from "./util";
+import SkillSidebar from "./view/SkillSidebar";
+
 
 function App() {
+
+    const [selectedSkill, setSelectedSkill] = useState(null);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     const data = requireAll( require.context("./data/skilltrees/", false, /.json$/) )
     const trees = data.map(function(obj:any) {
@@ -80,10 +85,14 @@ function App() {
                             return(
                             <TabPanel key={key}>
                                 <TreeWrapper
-                                    treeId = "DACT"
-                                    tree = {tree.tree}
-                                    title = {tree.name}
-                                    handleSave = {myHandleSave}
+                                    treeId="DACT"
+                                    tree={tree.tree}
+                                    title={tree.name}
+                                    handleSave={myHandleSave}
+                                    onSkillClick={(skill) => {
+                                        setSelectedSkill(skill);
+                                        setIsSidebarOpen(true);
+                                    }}
                                 />
                             </TabPanel>
                             )})
@@ -104,6 +113,10 @@ function App() {
                     </TabPanel>
                 </Tabs>
             </article>
+
+            {isSidebarOpen && <SkillSidebar skill={selectedSkill} onClose={() => setIsSidebarOpen(false)} />}
+
+
             <footer>
                 <p>This is a demo only! The images it uses are all development placeholders and
                     are not owned or licensed for use.
@@ -115,6 +128,7 @@ function App() {
                 <p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
                     href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
             </footer>
+
         </div>
     );
 }
