@@ -175,6 +175,7 @@ textarea {
 .skill-sidebar p {
   font-size: 16px;
   margin-bottom: 15px;
+  font-style: italic;
 }
 
 .skill-sidebar ul {
@@ -187,7 +188,7 @@ textarea {
 }
 
 .skill-sidebar h4 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
   font-weight: normal;  /* Ensure content is not bold */
 
@@ -196,7 +197,7 @@ textarea {
 .skill-sidebar a {
   text-decoration: none;
   color: #1E90FF; /* Link color */
-  font-size: 16px;
+  font-size: 14px;
   display: block;
 }
 
@@ -207,7 +208,7 @@ textarea {
 .skill-sidebar a {
   text-decoration: none;
   color: #1E90FF; /* Link color */
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   word-wrap: break-word;
   overflow-wrap: break-word;
