@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
+
 
 type SkillSidebarProps = {
     skill: any;
@@ -29,7 +31,7 @@ function SkillSidebar({ skill, onClose }: SkillSidebarProps) {
                     ))}
                 </ul>
             )}
-            <button onClick={onClose}>Close</button>
+            <Button variant="contained" color="primary" onClick={onClose}>Close Sidebar</Button>
         </div>
     );
 }
