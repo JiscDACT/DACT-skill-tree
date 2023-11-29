@@ -1,7 +1,7 @@
 {
   "name": "skillz",
   "version": "0.1.0",
-  "homepage": "http://JiscDACT.github.io/DACT-skill-tree",
+  "homepage": ".",
   "private": true,
   "license": "GPL-3.0",
   "dependencies": {
