@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dactskilltree-dev-122917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::240624597515:role/amplify-dactskilltree-dev-122917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::240624597515:role/amplify-dactskilltree-dev-122917-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-dactskilltree-dev-122917-deployment",
+      "UnauthRoleName": "amplify-dactskilltree-dev-122917-unauthRole",
+      "StackName": "amplify-dactskilltree-dev-122917",
+      "StackId": "arn:aws:cloudformation:eu-west-2:240624597515:stack/amplify-dactskilltree-dev-122917/ea89db10-8eb2-11ee-96fd-0af2ffb7ea90",
+      "AmplifyAppId": "d6gfjkpqfqgp1"
+    }
+  }
+}
