@@ -77,10 +77,25 @@ export function flattenSkills(trees: any): any[]{
     return skills
 }
 
-function getFlatChildList(skill: any, skills: any[], treeName: string){
-    skills.push({"id":skill.id, "title": skill.title + " in " + treeName})
-    for(let i in skill.children){
-        getFlatChildList(skill.children[i], skills, treeName)
+function getFlatChildList(skill: any, skills: any[], treeName: string) {
+    // Check if skill.links is an array and it has at least one item with a 'text' property
+    let skillText = Array.isArray(skill.links) && skill.links.length > 0 && skill.links[0].text
+        ? skill.links[0].text + " in " + treeName
+        : null; // default value if skill.links.text is not present
+
+    skills.push({
+        "id": skill.id,
+        "title": skill.title,
+        "skill_desc": skill.tooltip.content,
+        // Include skill_text only if it's not null
+        ...(skillText && {"skill_text": skillText})
+    });
+
+    // Iterate over children if they exist
+    if (skill.children) {
+        for (let i in skill.children) {
+            getFlatChildList(skill.children[i], skills, treeName);
+        }
     }
 }
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
 body {
   background-color: black;
   color: white;
@@ -306,4 +307,18 @@ textarea {
 
 .full-tree-info button:hover {
   background-color: #555;
+}
+
+/* App.css */
+.standard-text {
+  font-size: 1rem;
+}
+
+/* App.css */
+.dialog-title {
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
 }

@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from 'prop-types';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import styled from "styled-components";
 import Button from '@material-ui/core/Button';
-import DialogTitle from '@material-ui/core/DialogTitle';
 import Dialog from '@material-ui/core/Dialog';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -28,33 +27,72 @@ const Description = styled.p`
 `
 
 function SimpleDialog(props: any) {
-    const { onClose, selectedValue, open } = props;
+    const { onClose, open } = props;
+    const [selectedSkillId, setSelectedSkillId] = useState<string | null>(null);
 
-    const handleClose = () => {
-        onClose(selectedValue);
+    const handleListItemClick = (skillId: string) => {
+        setSelectedSkillId(prevSelectedSkillId => prevSelectedSkillId === skillId ? null : skillId);
     };
 
-    const handleListItemClick = (value:any) => {
-        onClose(value);
+    const handleClose = () => {
+        onClose();
+        setSelectedSkillId(null);
+    };
+
+    const dialogPaperStyle = {
+        backgroundColor: '#282c34',
+        border: '2px solid #000',
+        boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+        color: '#fff',
+
     };
 
     return (
-        <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
-            <DialogTitle id="simple-dialog-title">What skills do I need?</DialogTitle>
-            <List>
-                {props.skills.map((skill:any) => (
-                    <ListItem button onClick={() => handleListItemClick(skill)} key={skill.id}>
-                        <ListItemText primary={skill.title} />
-                    </ListItem>
-                ))}
+        <Dialog
+            onClose={handleClose}
+            aria-labelledby="simple-dialog-title"
+            open={open}
+            PaperProps={{
+                style: {
+                    backgroundColor: '#282c34',
+                    border: '2px solid #000',
+                    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+                    color: '#fff',
+                    width: '50vw',
+                    maxWidth: '90vw',
 
+                }
+            }}
+        >
+            <h2 className="dialog-title" id="simple-dialog-title">
+                What skills do I need?
+            </h2>
+            <List>
+                {props.skills.map((skill: any) => (
+                    <React.Fragment key={skill.id}>
+                        <ListItem button onClick={() => handleListItemClick(skill.id)}>
+                            <ListItemText primary={<strong>Skill: {skill.title}</strong>} />
+                        </ListItem>
+                        {selectedSkillId === skill.id && (
+                            <div style={{ paddingLeft: 20, paddingRight: 20 }}>
+                                <p className="standard-text">Overview: {skill.skill_desc}</p>
+                                <p className="standard-text">
+                                    Guidance: {skill.skill_text && <span>{skill.skill_text}</span>}
+                                </p>
+                                {skill.skillURL && <a href={skill.skillURL}>Learn More</a>}
+                            </div>
+                        )}
+                    </React.Fragment>
+                ))}
             </List>
-            <Button variant="outlined" color="primary" onClick={handleClose}>
+            <Button variant="contained" color="primary" onClick={handleClose}>
                 Close
             </Button>
         </Dialog>
     );
 }
+
+export default SimpleDialog;
 
 SimpleDialog.propTypes = {
     onClose: PropTypes.func.isRequired,
