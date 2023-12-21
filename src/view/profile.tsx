@@ -67,6 +67,7 @@ function SimpleDialog(props: any) {
             <h2 className="dialog-title" id="simple-dialog-title">
                 What skills do I need?
             </h2>
+
             <List>
                 {props.skills.map((skill: any) => (
                     <React.Fragment key={skill.id}>
@@ -76,10 +77,12 @@ function SimpleDialog(props: any) {
                         {selectedSkillId === skill.id && (
                             <div style={{ paddingLeft: 20, paddingRight: 20 }}>
                                 <p className="standard-text">Overview: {skill.skill_desc}</p>
-                                <p className="standard-text">
-                                    Guidance: {skill.skill_text && <span>{skill.skill_text}</span>}
-                                </p>
-                                {skill.skillURL && <a href={skill.skillURL}>Learn More</a>}
+                                {skill.skill_info && skill.skill_info.map((info: { text: string; url: string; }, index: number) => (
+                                    <React.Fragment key={index}>
+                                        {info.text && <p className="standard-text">Guidance: {info.text}</p>}
+                                        {info.url && <p className="standard-text">URL: <a href={info.url} className="custom-link" target="_blank" rel="noopener noreferrer" style={{ color: '#3f51b5' }}>{info.url}</a></p>}
+                                    </React.Fragment>
+                                ))}
                             </div>
                         )}
                     </React.Fragment>

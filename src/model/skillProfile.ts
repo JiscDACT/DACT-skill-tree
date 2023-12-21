@@ -78,26 +78,45 @@ export function flattenSkills(trees: any): any[]{
 }
 
 function getFlatChildList(skill: any, skills: any[], treeName: string) {
-    // Check if skill.links is an array and it has at least one item with a 'text' property
-    let skillText = Array.isArray(skill.links) && skill.links.length > 0 && skill.links[0].text
-        ? skill.links[0].text + " in " + treeName
-        : null; // default value if skill.links.text is not present
+    // define the Link type or get type errors
+    interface Link {
+        url: string;
+        text: string;
+    }
+
+    let skillInfo: { text: string; url: string; }[] = [];
+
+    // check if skill.links is an array and it has at least one item
+    if (Array.isArray(skill.links) && skill.links.length > 0) {
+        skill.links.forEach((link: Link) => {
+            skillInfo.push({
+                text: link.text || '',
+                url: link.url || ''
+            });
+        });
+    }
 
     skills.push({
         "id": skill.id,
         "title": skill.title,
         "skill_desc": skill.tooltip.content,
-        // Include skill_text only if it's not null
-        ...(skillText && {"skill_text": skillText})
+        "skill_info": skillInfo // always include skill_info, even if it's an empty array
     });
 
-    // Iterate over children if they exist
+    // iterate over children if they exist
     if (skill.children) {
         for (let i in skill.children) {
             getFlatChildList(skill.children[i], skills, treeName);
         }
     }
+    console.log({
+        "id": skill.id,
+        "title": skill.title,
+        "skill_desc": skill.tooltip.content,
+        "skill_info": skillInfo
+    });
 }
+
 
 export function updateProfiles(profiles: any, skills: any, skillList: any) {
     let newProfileList = []
