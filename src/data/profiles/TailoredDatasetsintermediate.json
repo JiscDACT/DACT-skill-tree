@@ -7,7 +7,7 @@
     "color": "Purple",
     "description": "Everything you need to get to Intermediate+ in TD",
     "skills": [
-      "td-1", "td-2", "td-3", "td-12", "td-13", "td-4", "td-5", "td-6", "td-7", "td-8", "td-9", "td-14", "td-15"
+      "td-1", "td-2", "td-3", "tdt-12", "tdt-13", "td-4", "td-5", "td-6", "td-7", "td-8", "td-9", "tdt-14", "tdt-15"
 
     ],
     "portrait": "portraits/Tailoreddatasets.jpg",
