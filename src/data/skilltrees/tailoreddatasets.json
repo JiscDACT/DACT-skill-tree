@@ -64,7 +64,7 @@
             {
                 "id": "td-6",
                 "title": "Provider Preview",
-                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                "icon": "icons/RoundIcons_FreeSet-33.svg",
                 "tooltip": {
                     "content": "Able to put data enquiries on the provider preview system and answer simple/modest questions on the data enquiry."
                 },
@@ -72,7 +72,7 @@
                     {
                         "id": "td-7",
                         "title": "Checking simple data enquiries",
-                        "icon": "icons/RoundIcons_FreeSet-35.svg",
+                        "icon": "icons/RoundIcons_FreeSet-33.svg",
                         "tooltip": {
                             "content": "Checking pivot table and spreadsheet data enquiries."
                         },
@@ -80,7 +80,7 @@
                             {
                                 "id": "td-8",
                                 "title": "Checking all formats",
-                                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                "icon": "icons/RoundIcons_FreeSet-33.svg",
                                 "tooltip": {
                                     "content": "Checking all formats of data enquiries."
                                 },
@@ -88,7 +88,7 @@
                                     {
                                         "id": "td-10",
                                         "title": "Checking more complex enquiries",
-                                        "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                        "icon": "icons/RoundIcons_FreeSet-33.svg",
                                         "tooltip": {
                                             "content": "Fully able to check data enquiries of all levels of complexity e.g. PowerBI, Tableau."
                                         },
@@ -96,7 +96,7 @@
                                             {
                                                 "id": "td-11",
                                                 "title": "Checking the most complex enquiries",
-                                                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                                "icon": "icons/RoundIcons_FreeSet-33.svg",
                                                 "tooltip": {
                                                     "content": "Checking tracking and linking enquiries."
                                                 },
@@ -113,7 +113,7 @@
             {
                 "id": "tdt-1",
                 "title": "Datatypes",
-                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                "icon": "icons/RoundIcons_FreeSet-43.svg",
                 "tooltip": {
                     "content": "Understanding datatypes and how they affect the scripts (e.g. char vs int)."
                 },
@@ -121,7 +121,7 @@
                     {
                         "id": "tdt-2",
                         "title": "Debugging",
-                        "icon": "icons/RoundIcons_FreeSet-35.svg",
+                        "icon": "icons/RoundIcons_FreeSet-43.svg",
                         "tooltip": {
                             "content": "Be able to Debug SQL scripts when an error appears, identify the problem and correct."
                         },
@@ -129,7 +129,7 @@
                             {
                                 "id": "tdt-3",
                                 "title": "Automation tool maintenence",
-                                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                "icon": "icons/RoundIcons_FreeSet-43.svg",
                                 "tooltip": {
                                     "content": "Helping maintain/update the automation tool."
                                 },
@@ -137,7 +137,7 @@
                                     {
                                         "id": "tdt-4",
                                         "title": "Intermediate SQL knowledge",
-                                        "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                        "icon": "icons/RoundIcons_FreeSet-43.svg",
                                         "tooltip": {
                                             "content": "Confident with SQL and writing scripts efficiently."
                                         },
@@ -145,7 +145,7 @@
                                             {
                                                 "id": "tdt-5",
                                                 "title": "Other useful tools",
-                                                "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                                "icon": "icons/RoundIcons_FreeSet-43.svg",
                                                 "tooltip": {
                                                     "content": "Able to use other software to facilitate efficiency gain in TDS e.g. Python/Alteryx."
                                                 },
@@ -153,7 +153,7 @@
                                                     {
                                                         "id": "tdt-6",
                                                         "title": "Expert SQL knowledge",
-                                                        "icon": "icons/RoundIcons_FreeSet-35.svg",
+                                                        "icon": "icons/RoundIcons_FreeSet-43.svg",
                                                         "tooltip": {
                                                             "content": "Expert with SQL e.g. indexes."
                                                         },
